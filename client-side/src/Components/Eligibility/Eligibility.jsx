@@ -12,11 +12,11 @@ import eight from '../../Images/Group 13.png'
 
 const Eligibility = () =>{
     return(
-        <div className=" bg-[#EBFBF3] w-full text-left py-20 mt-[6rem]">
+        <div className=" bg-[#EBFBF3] text-center w-full lg:text-left py-20 px-10 mt-[6rem]">
             <div className="container flex flex-col gap-2">
-                <h1 className="head capitalize w-[32%]">what required to be eligible for the loan</h1>
-                <p className="word w-[40%] capitalize">we give loans to founders, business owners, farmers to grow their business in a profitable way.</p>
-                <div className="grid grid-cols-4 gap-7 mt-8">
+                <h1 className="head capitalize text-xl lg:w-[35%] lg:text-4xl ">what required to be eligible for the loan</h1>
+                <p className="word text-[15px] lg:w-[40%] lg:text-lg capitalize">we give loans to founders, business owners, farmers to grow their business in a profitable way.</p>
+                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-7 mt-8">
                     <Eligibilityprops
                         image = {one}
                         title = '20+ age requirement'
