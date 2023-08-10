@@ -1,6 +1,6 @@
 import React from 'react'
 import Quickprops1 from './Quickprops1';
-import quick from '../../Images/Group 4 (1).png'
+import quick from '../../Images/Group 4.png'
 import support from '../../Images/Group 5.png'
 import Quickprops2 from './Quickprops2';
 import payment from '../../Images/Group 4 (1).png'

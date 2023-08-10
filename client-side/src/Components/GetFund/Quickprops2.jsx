@@ -4,10 +4,10 @@ import icon from '../../Images/tabler-icon-circle-check-filled.png'
 
 const Quickprops2 = (props) =>{
     return(
-        <div className="mt-10 px-5 flex flex-col-reverse gap-6 items-center lg:flex lg:flex-row lg:gap-[19rem] md:bg-red-500 lg:bg-yellow-200">
-            <div className='w-full text-center lg:w-1/2 flex flex-col gap-4 lg:text-left'>
+        <div className="mt-10 px-5 flex flex-col-reverse gap-6 items-center lg:flex lg:flex-row lg:gap-[10rem]">
+            <div className='w-full text-center lg:w-[70%] flex flex-col gap-4 lg:text-left'>
                 <h1 className="head">{props.heading}</h1>
-                <p className="w-full lg:w-[75%] capitalize">{props.paragraph}</p>
+                <p className="w-full lg:w-[54%] capitalize">{props.paragraph}</p>
                 <div className="nunito grid lg:grid-cols-2">
                     <div className="flex items-center">
                         <img src={icon} alt="" />
@@ -27,7 +27,7 @@ const Quickprops2 = (props) =>{
                     </div>
                 </div>
             </div>
-            <img className="w-full lg:w-1/2" src={props.image} alt=""/>
+            <img className="w-[50%] lg:w-[40%]" src={props.image} alt=""/>
         </div>
     )
 }
