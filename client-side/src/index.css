@@ -61,5 +61,8 @@ svg{
   color: gray;
 }
 .btn{
-  @apply font-bold py-3 px-4 bg-[#35CD8D] rounded-2xl hover:opacity-20 ease-in duration-200;
+  @apply font-bold py-3 px-8 bg-[#35CD8D] rounded-2xl hover:opacity-20 ease-in duration-200;
+}
+.nunito{
+  font-family: "Nunito Sans";
 }

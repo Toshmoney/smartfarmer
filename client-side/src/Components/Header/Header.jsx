@@ -15,8 +15,8 @@ const Header = () => {
                         <a className="font-bold hover:text-[#35CD8D] ease-in duration-300" href="">Support</a>
                     </div>
                     <div className="flex gap-x-4">
-                        <button><a className="font-bold text-[#35CD8D] rounded-2xl py-3 px-4 border-2 border-[#35CD8D]" href="">Sign In</a></button>
-                        <button><a className="btn" href="">Sign Up</a></button>
+                        <button><a className="font-bold text-[#35CD8D] rounded-2xl py-3 px-8 border-2 border-[#35CD8D]" href="">Sign In</a></button>
+                        <button><a className="btn text-white" href="">Sign Up</a></button>
                     </div>
                 </div>
                 {/* ===========mobile-nave ====================== */}
