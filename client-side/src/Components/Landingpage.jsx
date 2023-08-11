@@ -4,6 +4,7 @@ import Header from './Header/Header'
 import Getfund from './GetFund/Getfund'
 import Streamline from './GetFund/Streamline'
 import Eligibility from './Eligibility/Eligibility'
+import Getstarted from './Getstarted/Getstarted'
 
 const Landingpage = () => {
   return (
@@ -13,6 +14,7 @@ const Landingpage = () => {
       <Getfund/>
       <Streamline/>
       <Eligibility/>
+      <Getstarted/>
     </div>
   )
 }
