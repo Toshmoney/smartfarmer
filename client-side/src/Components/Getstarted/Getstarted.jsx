@@ -6,7 +6,7 @@ const Getstarted = () => {
     <div>
         <div className='container px-10 py-20 flex-col w-full justify-between lg:flex lg:flex-row lg:px-0'>
             <div className='text-left mb-7 lg:w-1/3 flex flex-col gap-4'>
-                <h1 className='head capitalize lg:text-5xl'>a simples way to get started with us!</h1>
+                <h1 className='head capitalize'>a simples way to get started with us!</h1>
                 <p className='nunito text-xl text-[grey] capitalize'>Start your journey with us today and experience a hassle-free loan process tailored to the needs of farmers like you!</p>
                 <div>
                     <button className='btn text-white'>Get Started</button>
@@ -33,7 +33,7 @@ const Getstarted = () => {
         </div>
         <div className='container flex flex-col gap-11 px-10 lg:px-0'>
             <div className='capitalize nunito text-left lg:w-1/3 flex flex-col gap-3'>
-                <h1 className='lg:text-5xl'>your estimate loan calculator</h1>
+                <h1 className='lg:w-[70%]'>your estimate loan calculator</h1>
                 <p className='capitalize nunito text-xl text-[grey]'>request a loan and get money to your balance</p>
             </div>
             <div className='border-2 border-grey-400 rounded-3xl flex w-full px-10 py-10 justify-between'>

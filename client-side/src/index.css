@@ -47,6 +47,9 @@ svg{
 }
 .head{
   font-family: "Nunito Sans";
+  line-height: 50px !important;
+  font-size: 40px;
+  /* font-size: 3rem; */
 }
 .hero-para{
   font-family: "Nunito Sans";
@@ -63,6 +66,7 @@ svg{
 .btn{
   @apply font-medium py-3 px-8 bg-[#35CD8D] rounded-2xl hover:opacity-20 ease-in duration-200;
 }
+
 
 .nunito{
   font-family: "Nunito Sans";
