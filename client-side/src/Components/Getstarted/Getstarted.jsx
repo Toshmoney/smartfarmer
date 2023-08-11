@@ -31,35 +31,35 @@ const Getstarted = () => {
                 </div>
             </div>
         </div>
-        <div className='container flex flex-col gap-11 px-10 lg:px-0'>
+        <div className='container flex flex-col mb-10 gap-11 px-10 lg:px-0 lg:mb-40'>
             <div className='capitalize nunito text-left lg:w-1/3 flex flex-col gap-3'>
-                <h1 className='lg:w-[70%]'>your estimate loan calculator</h1>
+                <h1 className='w-full lg:w-[70%]'>your estimate loan calculator</h1>
                 <p className='capitalize nunito text-xl text-[grey]'>request a loan and get money to your balance</p>
             </div>
-            <div className='border-2 border-grey-400 rounded-3xl flex w-full px-10 py-10 justify-between'>
-                <div className='w-[60%] flex flex-col gap-3 text-left'>
+            <div className='border-2 border-grey-400 rounded-3xl flex flex-col w-full px-10 py-10 lg:justify-between lg:flex-row'>
+                <div className='w-full lg:w-[60%] flex flex-col gap-3 text-left'>
                     <h1>Loan Calculator</h1>
                     <p className='capitalize nunito text-xl text-[grey]'>request a loan and get money to your balance</p>
                     <div className='flex flex-col gap-9'>
                         <div className='flex w-full mt-10 '>
                             <div className='w-[30%] flex justify-center border-2 py-5 rounded-tl-2xl rounded-bl-2xl'>
-                                <button className='btn text-white'>Amount</button>
+                                <button className='font-medium py-1 px-2 lg:py-3 lg:px-8 bg-[#35CD8D] rounded-2xl hover:opacity-20 ease-in duration-200 text-white'>Amount</button>
                             </div>
                             <div className='w-[70%] outline-0 border-2 py-7 rounded-tr-2xl rounded-br-2xl flex justify-center'>
-                                <input className='text-2xl outline-none' type="text" placeholder='2,000,000.00' />
+                                <input className='w-full px-5 text-2xl outline-none' type="text" placeholder='2,000,000.00' />
                             </div>
                         </div>
-                        <div className='flex w-full '>
+                        <div className='flex w-full mt-10 '>
                             <div className='w-[30%] flex justify-center border-2 py-5 rounded-tl-2xl rounded-bl-2xl'>
-                                <button className='font-medium py-3 px-8 bg-[#FFA500] rounded-2xl hover:opacity-20 ease-in duration-200 text-white'>Period</button>
+                                <button className='font-medium py-1 px-2 lg:py-3 lg:px-8 bg-[#FFA500] rounded-2xl hover:opacity-20 ease-in duration-200 text-white'>Period</button>
                             </div>
                             <div className='w-[70%] outline-0 border-2 py-7 rounded-tr-2xl rounded-br-2xl flex justify-center'>
-                                <input className='text-2xl outline-none' type="text" placeholder='24 Months' />
+                                <input className='w-full px-5 text-2xl outline-none' type="text" placeholder='24 Months' />
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className='w-[20%] border-2 rounded-[10%] text-left py-20 items-center flex flex-col gap-10'> 
+                <div className='w-[100%] lg:w-[20%] border-2 rounded-[10%] text-left py-20 items-center flex flex-col gap-10 mt-8'> 
                     <div className='flex flex-col items-center'>
                         <p className='capitalize nunito text-xl text-[grey]'>Monthly Payment</p>
                         <h1>N 10,000</h1>
