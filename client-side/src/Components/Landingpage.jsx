@@ -6,6 +6,7 @@ import Streamline from './GetFund/Streamline'
 import Eligibility from './Eligibility/Eligibility'
 import Getstarted from './Getstarted/Getstarted'
 import Aboutus from './Aboutus/Aboutus'
+import Footer from './Footer/Footer'
 
 const Landingpage = () => {
   return (
@@ -17,6 +18,7 @@ const Landingpage = () => {
       <Eligibility/>
       <Getstarted/>
       <Aboutus/>
+      <Footer/>
     </div>
   )
 }

@@ -63,7 +63,12 @@ svg{
   color: gray;
 }
 .btn{
-  @apply font-medium py-3 px-8 bg-[#35CD8D] rounded-2xl hover:opacity-20 ease-in duration-200;
+  @apply font-medium py-3 px-8 bg-[#35CD8D] rounded-2xl border-2 border-[#35CD8D];
+}
+.btn:hover{
+  border: 2px solid green;
+  background-color: white;
+  color: green;
 }
 
 .nunito{
