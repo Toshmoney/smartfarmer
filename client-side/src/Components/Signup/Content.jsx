@@ -22,7 +22,7 @@ const Content = () => {
                     <img src={password} alt="" />
                 </div>
                 <b className='font-small'>By Signing Mean You agree To Our <span className='text-[##35CD8D]'><a href=""><u>Terms of Services</u></a></span></b>
-                <button className='btn text-white'>Login</button>
+                <button className='btn text-white'>Create an Account</button>
                
             </div>
         </div>
