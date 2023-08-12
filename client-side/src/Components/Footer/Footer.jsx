@@ -10,8 +10,8 @@ import link from '../../Images/Group 17.png'
 const Footer = () => {
   return (
     <div>
-      <div className='relative bg-[#35CD8D] overflow-hidden w-[60%] left-[20%] top-20 items-center flex flex-col py-[8rem] z-10 rounded-3xl'>
-            <h1 className='capitalize text-white head lg:w-1/2'>our process is designed to make it easier for farmers</h1>
+      <div className='relative bg-[#35CD8D] overflow-hidden w-[60%] left-[20%] top-20 items-center flex flex-col py-[8rem] z-10 rounded-3xl px-4'>
+            <h1 className='capitalize text-white lg:text-[40px] head lg:w-1/2'>our process is designed to make it easier for farmers</h1>
             <div>
                 <button className='bg-white font-medium py-3 px-8 rounded-2xl hover:bg-green ease-in duration-200 text-green'>Get Started</button>
             </div>
@@ -23,7 +23,7 @@ const Footer = () => {
           </div>
           <div className='w-full bg-[black] py-36 flex items-center justify-center'>
             <div className=' w-[60%] flex flex-col gap-10'>
-              <div className='flex justify-between items-center'>
+              <div className='flex lg:justify-between lg:flex-row items-center flex-col gap-4'>
                 <button className='btn text-white'>Smart farmer</button>
                 <div className='flex gap-5'>
                   <a className='text-white' href=""><img src={facebook} alt="" /></a>
@@ -32,12 +32,12 @@ const Footer = () => {
                   <a className='text-white' href=""><img src={link} alt="" /></a>
                 </div>
               </div>
-              <div className='w-full flex justify-between'>
-                <div className='nunito text-white text-left leading-8'>
+              <div className='w-full flex lg:flex-row lg:justify-between flex-col gap-4 items-center'>
+                <div className='nunito text-center text-white lg:text-left leading-8'>
                   <p>Contact: info@smartfamers.com</p>
                   <p>Address: 5B taiwo road, ilorin, kwara nigeria.</p>
                 </div>
-                <div className='text-white text-left leading-8'>
+                <div className='text-white text-center lg:text-left leading-8'>
                   <p><a href="">About us</a></p>
                   <p><a href="">How it works</a></p>
                   <p><a href="">Support</a></p>
@@ -51,6 +51,9 @@ const Footer = () => {
                     <button className='btn w-full'>Subscribe Now</button>
                   </div>
                 </div>
+              </div>
+              <div>
+                <p className='nunito text-center text-white lg:text-left'>2023 - copyright by smartfamers.com. all right reserved.</p>
               </div>
             </div>
 
