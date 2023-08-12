@@ -1,4 +1,7 @@
 import React from 'react'
+import plus from '../../Images/Vector (9).png'
+
+
 
 const Content = () => {
   return (
@@ -26,6 +29,27 @@ const Content = () => {
                 <input className=' border-grey w-full py-3 outline-none border-b-2 nunito' type="text" placeholder='Message' />
                 <div className='text-left mt-6'>
                     <button className='btn text-white'>Submit</button>
+                </div>
+            </div>
+        </div>
+        <div className='container my-10 w-full lg:w-[39%] flex flex-col gap-7 capitalize'>
+            <h1 className='capitalize nunito text-2xl my-6 lg:text-4xl'>most asked question</h1>
+            <div className='flex flex-col gap-4'>
+                <div className='flex justify-between text-left border-grey w-full py-3 outline-none border-b-2 nunito'>
+                    <h5>what is the best way to get loan quick?</h5>
+                    <img className='w-[15px] h-[15px]' src={plus} alt="" />
+                </div>
+                <div className='flex justify-between text-left border-grey w-full py-3 outline-none border-b-2 nunito'>
+                    <h5>what is loan limit?</h5>
+                    <img className='w-[15px] h-[15px]' src={plus} alt="" />
+                </div>
+                <div className='flex justify-between text-left border-grey w-full py-3 outline-none border-b-2 nunito'>
+                    <h5>how can i access my loan?</h5>
+                    <img className='w-[15px] h-[15px]' src={plus} alt="" />
+                </div>
+                <div className='flex justify-between text-left border-grey w-full py-3 outline-none border-b-2 nunito'>
+                    <h5>what is the payment method available?</h5>
+                    <img className='w-[15px] h-[15px]' src={plus} alt="" />
                 </div>
             </div>
         </div>

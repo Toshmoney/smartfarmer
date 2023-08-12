@@ -1,5 +1,5 @@
 import React from 'react'
-import {AiOutlinePlus} from 'react-icons/ai'
+import plus from '../../Images/Vector (9).png'
 
 const Getstarted = () => {
   return (
@@ -15,19 +15,19 @@ const Getstarted = () => {
             <div className='lg:w-1/2 text-left head text-[grey] gap-5 flex flex-col'>
                 <div className='flex w-full justify-between items-center py-2 px-4 border-b-2'>
                     <h1 className='text-xl lg:text-3xl'>01. User Registration</h1>
-                    <AiOutlinePlus/>
+                    <img src={plus} alt="" />
                 </div>
                 <div className='flex w-full justify-between items-center py-2 px-4 border-b-2'>
                     <h1 className='text-xl lg:text-3xl'>02. Loan Application</h1>
-                    <AiOutlinePlus/>
+                    <img src={plus} alt="" />
                 </div>
                 <div className='flex w-full justify-between items-center py-2 px-4 border-b-2'>
                     <h1 className='text-xl lg:text-3xl'>03. Consultation with Loan Officers</h1>
-                    <AiOutlinePlus/>
+                    <img src={plus} alt="" />
                 </div>
                 <div className='flex w-full justify-between items-center py-2 px-4 border-b-2'>
                     <h1 className='text-xl lg:text-3xl'>04. loan Approval and Disbursement</h1>
-                    <AiOutlinePlus/>
+                    <img src={plus} alt="" />
                 </div>
             </div>
         </div>
