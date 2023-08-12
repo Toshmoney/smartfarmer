@@ -9,7 +9,7 @@ const Header = () => {
     }
   return (
     <div className="w-100 w-[100%] flex items-center py-9 justify-center">
-            <div className="container flex text-left justify-between w-[100%] items-center">
+            <div className="container flex text-left justify-between w-full items-center">
                 <div className="w-[20%]">
                     <h3>Logo</h3>
                 </div>
