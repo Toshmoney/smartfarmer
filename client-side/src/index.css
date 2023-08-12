@@ -81,7 +81,7 @@ svg{
   height: 0vh;
   background-color: green;
   position: absolute;
-  top: 10%;
+  top: 12%;
   z-index: 10;
   justify-content: space-around;
   overflow: hidden;
@@ -95,7 +95,7 @@ svg{
   height: 60vh;
   background-color: green;
   position: absolute;
-  top: 10%;
+  top: 12%;
   z-index: 10;
   justify-content: space-around;
   overflow: hidden;
