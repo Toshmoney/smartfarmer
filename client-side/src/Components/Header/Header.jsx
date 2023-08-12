@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {GiHamburgerMenu} from 'react-icons/gi'
+import {FiX} from 'react-icons/fi'
 
 const Header = () => {
+    const [toggle, setToggle] = useState(false);
+    const handleClick = () =>{
+        setToggle(!toggle)
+    }
   return (
     <div className="w-100 flex items-center py-9 justify-center">
             <div className="flex justify-between w-[70%] items-center">
@@ -21,18 +26,16 @@ const Header = () => {
                 </div>
                 {/* ===========mobile-nave ====================== */}
             </div>
-            <div className="lg:hidden">
-                <GiHamburgerMenu className="svg"/>
+            <div onClick={handleClick} className="lg:hidden cursor-pointer ">
+                {toggle? <FiX/>:<GiHamburgerMenu className="svg"/>}
             </div>
 
-            <div className="w-full h-100vh bg-[#35CD8D] py-20 flex-col items-center justify-center absolute lg:hidden">
-                <div className="flex flex-col items-center">
-                    <a className="font-bold hover:text-[#35CD8D] ease-in duration-300" href="">About Us</a>
-                    <a className="font-bold hover:text-[#35CD8D] ease-in duration-300" href="">How It Works</a>
-                    <a className="font-bold hover:text-[#35CD8D] ease-in duration-300" href="">Support</a>
-                    <a className="font-bold hover:text-[#35CD8D] ease-in duration-300" href="">Sign In</a>
-                    <a className="font-bold hover:text-[#35CD8D] ease-in duration-300" href="">Sign Up</a>
-                </div>
+            <div className={toggle? "toggle-sub":"toggle"}>
+                <a className="font-bold hover:text-[#fff] ease-in duration-300" href="">About Us</a>
+                <a className="font-bold hover:text-[#fff] ease-in duration-300" href="">How It Works</a>
+                <a className="font-bold hover:text-[#fff] ease-in duration-300" href="">Support</a>
+                <a className="font-bold hover:text-[#fff] ease-in duration-300" href="">Sign In</a>
+                <a className="font-bold hover:text-[#fff] ease-in duration-300" href="">Sign Up</a>
             </div>
         </div>
   )
