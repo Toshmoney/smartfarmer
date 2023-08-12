@@ -45,10 +45,6 @@ svg{
   width: 40px;
   height: 40px;
 }
-/* .plus{
-  width: 10px !important;
-  height: 10px !important;
-} */
 .head{
   font-family: "Nunito Sans";
   line-height: 50px !important;
@@ -68,6 +64,9 @@ svg{
 }
 .btn{
   @apply font-medium py-3 px-8 bg-[#35CD8D] rounded-2xl border-2 border-[#35CD8D];
+}
+.btn1{
+  @apply font-medium py-2 px-5 bg-[#35CD8D] rounded-3xl border-2 border-[#35CD8D];
 }
 .btn:hover{
   border: 2px solid green;

@@ -21,8 +21,7 @@ const LoginNav = () => {
                     <a className="font-bold hover:text-[#35CD8D] ease-in duration-300" href="/support">Support</a>
                 </div>
                 <div className="flex gap-x-4">
-                    {/* <button><a className="font-bold text-[#35CD8D] rounded-2xl py-3 px-8 border-2 border-[#35CD8D]" href="/signin">Sign In</a></button> */}
-                    <button><a className="btn text-white" href="/signup">Sign Up</a></button>
+                    <button><a className="btn text-white" href="/signup">Register</a></button>
                 </div>
             </div>
             {/* ===========mobile-nave ====================== */}
