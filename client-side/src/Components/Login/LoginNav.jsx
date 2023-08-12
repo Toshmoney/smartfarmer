@@ -2,13 +2,14 @@ import React, { useState } from 'react'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import {FiX} from 'react-icons/fi'
 
-const Header = () => {
+const LoginNav = () => {
     const [toggle, setToggle] = useState(false);
     const handleClick = () =>{
         setToggle(!toggle)
     }
   return (
-    <div className="w-100 w-[100%] flex items-center py-9 justify-center">
+    <div>
+        <div className="w-100 w-[100%] flex items-center py-9 justify-center">
         <div className="container flex text-left justify-between w-full items-center">
             <div className="w-[20%]">
                 <h3>Logo</h3>
@@ -20,7 +21,7 @@ const Header = () => {
                     <a className="font-bold hover:text-[#35CD8D] ease-in duration-300" href="/support">Support</a>
                 </div>
                 <div className="flex gap-x-4">
-                    <button><a className="font-bold text-[#35CD8D] rounded-2xl py-3 px-8 border-2 border-[#35CD8D]" href="/signin">Sign In</a></button>
+                    {/* <button><a className="font-bold text-[#35CD8D] rounded-2xl py-3 px-8 border-2 border-[#35CD8D]" href="/signin">Sign In</a></button> */}
                     <button><a className="btn text-white" href="/signup">Sign Up</a></button>
                 </div>
             </div>
@@ -35,10 +36,11 @@ const Header = () => {
             <a className="font-bold hover:text-[#fff] ease-in duration-300" href="/works">How It Works</a>
             <a className="font-bold hover:text-[#fff] ease-in duration-300" href="/support">Support</a>
             <a className="font-bold hover:text-[#fff] ease-in duration-300" href="/signin">Sign In</a>
-            <a className="font-bold hover:text-[#fff] ease-in duration-300" href="/signup">Sign Up</a>
+            {/* <a className="font-bold hover:text-[#fff] ease-in duration-300" href="/signup">Sign Up</a> */}
         </div>
+    </div>
     </div>
   )
 }
 
-export default Header
+export default LoginNav
