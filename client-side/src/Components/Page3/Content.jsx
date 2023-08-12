@@ -9,7 +9,7 @@ import ContentProp2 from './ContentProps2'
 
 const Content = () => {
   return (
-    <div className='container py-11 text-left'>
+    <div className='container lg:pt-[10rem] text-left'>
       <div className='container flex flex-col gap-10'>
         <ContentProp1
           number = '01'

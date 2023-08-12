@@ -3,7 +3,7 @@ import React from 'react'
 const Content = () => {
   return (
     <div>
-        <div className='container flex flex-row justify-between lg:pt-[13rem]'>
+        <div className='container flex flex-row justify-between px-20 lg:px-0 lg:pt-[13rem]'>
             <div className='flex flex-col gap-2 border-2 border-grey rounded-2xl w-[30%] py-10 text-left px-20'>
                 <h3 className='capitalize nunito'>office address</h3>
                 <p className='capitalize nunito'>no 2B Taiwo road, ilorin, kwara state</p>
