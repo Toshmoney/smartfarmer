@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import {FiX} from 'react-icons/fi'
 
-const LoginNav = () => {
+const SignupNav = () => {
     const [toggle, setToggle] = useState(false);
     const handleClick = () =>{
         setToggle(!toggle)
@@ -21,7 +21,7 @@ const LoginNav = () => {
                     <a className="font-bold hover:text-[#35CD8D] ease-in duration-300" href="/support">Support</a>
                 </div>
                 <div className="flex gap-x-4">
-                    <button><a className="btn text-white" href="/signup">Register</a></button>
+                    <button><a className="btn text-white" href="/signing">Sign In</a></button>
                 </div>
             </div>
             {/* ===========mobile-nave ====================== */}
@@ -41,4 +41,4 @@ const LoginNav = () => {
   )
 }
 
-export default LoginNav
+export default SignupNav;

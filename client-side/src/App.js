@@ -5,6 +5,7 @@ import Landingpage from './Components/Landingpage';
 import WorkPage from './Components/Page3/WorkPage';
 import Support from './Components/Page4/Support';
 import Login from './Components/Login/Login';
+import Signup from './Components/Signup/Signup';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/works' element={<WorkPage/>}/>
         <Route path='/support' element={<Support/>}/>
         <Route path='/signin' element={<Login/>}/>
+        <Route path='/signup' element={<Signup/>}/>
       </Routes>
       </BrowserRouter>
     </div>
