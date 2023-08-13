@@ -19,8 +19,7 @@ const Content = () => {
                     <img className='cursor-pointer' src={password} alt="" />
                 </div>
                 <a className='decoration-none text-[#35CD8D] text-right' href="">Forgot Password?</a>
-                <button className='btn text-white'>Login</button>
-               
+                <button className='btn text-white'><a href="/dashboard">Login</a></button>
             </div>
         </div>
     </div>
