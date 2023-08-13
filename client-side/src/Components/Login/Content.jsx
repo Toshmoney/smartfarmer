@@ -18,7 +18,7 @@ const Content = () => {
                     <input className=' border-grey w-full py-3 outline-none nunito' type="text" placeholder='Password' />
                     <img className='cursor-pointer' src={password} alt="" />
                 </div>
-                <a className='decoration-none color-[##35CD8D] text-right' href="">Forgot Password?</a>
+                <a className='decoration-none text-[#35CD8D] text-right' href="">Forgot Password?</a>
                 <button className='btn text-white'>Login</button>
                
             </div>
