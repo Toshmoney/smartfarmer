@@ -13,8 +13,8 @@ const Dashtop = () => {
             <input className='outline-0 w-[80%] bg-transparent' type="text" placeholder='Search Here' />
         </div>
         <div className='flex gap-3'>
-            <img src={question} alt="" />
-            <img src={alert} alt="" />
+            <img className='w-[40px] h-[40px]' src={question} alt="" />
+            <img className='w-[40px] h-[40px]' src={alert} alt="" />
             <img src={options} alt="" />
         </div>
     </div>
