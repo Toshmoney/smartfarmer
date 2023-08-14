@@ -7,6 +7,9 @@ import Support from './Components/Page4/Support';
 import Login from './Components/Login/Login';
 import Signup from './Components/Signup/Signup';
 import Dashboard from './Components/Dashboard/Dashboard';
+import Forget from './Components/Forgetpass/Forget';
+import Codeverification from './Components/Forgetpass/Verification/Codeverification';
+
 
 function App() {
   return (
@@ -17,6 +20,8 @@ function App() {
         <Route path='/works' element={<WorkPage/>}/>
         <Route path='/support' element={<Support/>}/>
         <Route path='/signin' element={<Login/>}/>
+        <Route path='/forgetpassword' element={<Forget/>}/>
+        <Route path='/verification' element={<Codeverification/>}/>
         <Route path='/signup' element={<Signup/>}/>
         <Route path='/dashboard' element={<Dashboard/>}/>
       </Routes>
