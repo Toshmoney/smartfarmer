@@ -114,4 +114,12 @@ svg{
 .others{
   width: 20%;
 }
+.navigation{
+  background-color: white;
+  width: 12%;
+  height: 92.5vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
 
