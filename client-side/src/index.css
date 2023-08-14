@@ -108,3 +108,10 @@ svg{
   overflow: hidden;
   transition: 2s ease-in;
 }
+.name{
+  width: 50%;
+}
+.others{
+  width: 20%;
+}
+

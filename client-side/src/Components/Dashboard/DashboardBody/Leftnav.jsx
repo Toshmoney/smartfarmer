@@ -12,38 +12,40 @@ const Leftnav = () => {
         <div>
             <img className='relative left-[93%] top-4' src={toggle} alt="" />
         </div>
-        <div className='pl-3 lg:flex flex-col gap-12'>
-            <div className='flex gap-2 items-center '>
-                <LuLayoutDashboard className='icon'/>
-                <a className='nunito text-[#35CD8D] text-[20px]' href="">Dashboard</a>
+        <div className='flex flex-col h-[100%] justify-between'>
+            <div className='pl-3 lg:flex flex-col gap-12'>
+                <a href='' className='flex gap-2 items-center '>
+                    <LuLayoutDashboard className='icon'/>
+                    <p className='nunito text-[#35CD8D] text-[20px]'>Dashboard</p>
+                </a>
+                <a href='' className='flex gap-2 items-center'>
+                    <GiThreeLeaves className='icon'/>
+                    <p className='nunito text-[grey] text-[20px]'>Farm Details</p>
+                </a>
+                <a href='' className='flex gap-2 items-center'>
+                    <GiThreeLeaves className='icon'/>
+                    <p className='nunito text-[grey] text-[20px]'>Loan Application</p>
+                </a>
+                <a href='' className='flex gap-2 items-center'>
+                    <GiThreeLeaves className='icon'/>
+                    <p className='nunito text-[grey] text-[20px]'>Repayment</p>
+                </a>
+                <a href='' className='flex gap-2 items-center'>
+                    <BiHistory className='icon'/>
+                    <p className='nunito text-[grey] text-[20px]'>Loan History</p>
+                </a>
+                <a href='' className='flex gap-2 items-center'>
+                    <FaAmazonPay className='icon'/>
+                    <p className='nunito text-[grey] text-[20px]' href="">Payout</p>
+                </a>
+                <a href='' className='flex gap-2 items-center'>
+                    <AiOutlineSetting className='icon'/>
+                    <p className='nunito text-[grey] text-[20px]' href="">Settings</p>
+                </a>
             </div>
-            <div className='flex gap-2 items-center'>
-                <GiThreeLeaves className='icon'/>
-                <a className='nunito text-[grey] text-[20px]' href="">Farm Details</a>
+            <div className='bg-[#35CD8D] py-8'>
+                <a href="">Log out</a>
             </div>
-            <div className='flex gap-2 items-center'>
-                <GiThreeLeaves className='icon'/>
-                <a className='nunito text-[grey] text-[20px]' href="">Loan Application</a>
-            </div>
-            <div className='flex gap-2 items-center'>
-                <GiThreeLeaves className='icon'/>
-                <a className='nunito text-[grey] text-[20px]' href="">Repayment</a>
-            </div>
-            <div className='flex gap-2 items-center'>
-                <BiHistory className='icon'/>
-                <a className='nunito text-[grey] text-[20px]' href="">Loan History</a>
-            </div>
-            <div className='flex gap-2 items-center'>
-                <FaAmazonPay className='icon'/>
-                <a className='nunito text-[grey] text-[20px]' href="">Payout</a>
-            </div>
-            <div className='flex gap-2 items-center'>
-                <AiOutlineSetting className='icon'/>
-                <a className='nunito text-[grey] text-[20px]' href="">Settings</a>
-            </div>
-        </div>
-        <div className='bg-red-800'>
-            <a href="">Log out</a>
         </div>
     </div>
   )
