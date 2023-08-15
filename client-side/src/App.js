@@ -9,6 +9,7 @@ import Signup from './Components/Signup/Signup';
 import Dashboard from './Components/Dashboard/Dashboard';
 import Forget from './Components/Forgetpass/Forget';
 import Codeverification from './Components/Forgetpass/Verification/Codeverification';
+import Resetpass from './Components/ResetPassword/Resetpass';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path='/signin' element={<Login/>}/>
         <Route path='/forgetpassword' element={<Forget/>}/>
         <Route path='/verification' element={<Codeverification/>}/>
+        <Route path='/resetpassword' element={<Resetpass/>}/>
         <Route path='/signup' element={<Signup/>}/>
         <Route path='/dashboard' element={<Dashboard/>}/>
       </Routes>
