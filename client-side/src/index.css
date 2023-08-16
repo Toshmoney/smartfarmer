@@ -122,4 +122,12 @@ svg{
   flex-direction: column;
   gap: 2.5rem;
 }
+.accordion{
+  display: block;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: justify;
+  margin-top: 2px;
+  height: 100%;
+}
 

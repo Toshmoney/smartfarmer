@@ -1,7 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import plus from '../../Images/Vector (9).png'
+import {BsDash} from 'react-icons/bs'
 
 const Getstarted = () => {
+    const [open, setOpen] = useState(false)
+
+    const handleAccordion = () =>{
+        setOpen(!open)
+    }
   return (
     <div>
         <div className='container px-10 py-20 flex-col w-full justify-between lg:flex lg:flex-row lg:px-0'>
@@ -13,19 +19,24 @@ const Getstarted = () => {
                 </div>
             </div>
             <div className='lg:w-1/2 text-left head text-[grey] gap-5 flex flex-col'>
-                <div className='flex w-full justify-between items-center py-2 px-4 border-b-2'>
-                    <h1 className='text-xl lg:text-3xl'>01. User Registration</h1>
-                    <img src={plus} alt="" />
+                <div className='flex flex-col w-full justify-between items-center py-2 px-4 border-b-2'>
+                    <div onClick={handleAccordion} className='flex w-full justify-between'>
+                        <h1 className='text-xl lg:text-3xl'>01. User Registration</h1>
+                        <div>
+                            {open? <BsDash/>:<img src={plus} alt="" />}
+                        </div>
+                    </div>
+                    <p className={open? 'accordion':'h-0 overflow-hidden text-[20px] leading-[22px] text-justify mt-2 '}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis aut eveniet tempora quidem reiciendis voluptates temporibus maxime similique mollitia a. Unde nihil tempora eveniet fuga, deleniti, at, omnis officiis adipisci aliquid voluptas beatae quidem ipsa ullam. Reprehenderit pariatur modi repellat neque qui quas esse velit fugiat architecto illum, consequatur debitis!</p>
                 </div>
-                <div className='flex w-full justify-between items-center py-2 px-4 border-b-2'>
+                <div className='flex w-full justify-between items-center py-2 px-4 border-b-2 bg-white'>
                     <h1 className='text-xl lg:text-3xl'>02. Loan Application</h1>
                     <img src={plus} alt="" />
                 </div>
-                <div className='flex w-full justify-between items-center py-2 px-4 border-b-2'>
+                <div className='flex w-full justify-between items-center py-2 px-4 border-b-2 bg-white'>
                     <h1 className='text-xl lg:text-3xl'>03. Consultation with Loan Officers</h1>
                     <img src={plus} alt="" />
                 </div>
-                <div className='flex w-full justify-between items-center py-2 px-4 border-b-2'>
+                <div className='flex w-full justify-between items-center py-2 px-4 border-b-2 bg-white'>
                     <h1 className='text-xl lg:text-3xl'>04. loan Approval and Disbursement</h1>
                     <img src={plus} alt="" />
                 </div>
