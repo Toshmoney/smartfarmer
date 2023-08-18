@@ -3,15 +3,15 @@ import Getfundprops from './Getfundprops'
 
 const Getfund = () => {
   return (
-    <div className='container p-x-xl flex flex-col lg:flex lg:flex-row lg:gap-x-[12rem]'>
+    <div className='container px-[20px] lg:px-0 p-x-xl flex flex-col lg:flex lg:flex-row lg:gap-x-[12rem]'>
         <div className='w-full md:w-full text-center flex flex-col gap-3 bg-green-200 rounded-3xl lg:w-1/2 md:text-center lg:text-left justify-center px-10 mb-11 py-10'>
-            <h3 className='head lg:w-[78%]'>The Best place to get Fund for your Agriculturer Business</h3>
-            <p className='word lg:w-[78%]'>We Give Loans to Founders, Business Owners, Farmers to Grow their Business in a Profitable way</p>
+            <h3 className='nunito text-[20px] md:text-[30px] lg:w-[70%]'>The Best place to get Fund for your Agriculturer Business</h3>
+            <p className='word text-[15px] lg:w-[78%]'>We Give Loans to Founders, Business Owners, Farmers to Grow their Business in a Profitable way</p>
             <div className='w-full md:w-full text-center lg:text-left'>
                 <button className='btn text-white'>Get Started</button>   
             </div>
         </div>
-        <div className='lg:grid grid-cols-2 gap-6 lg:w-1/2 flex flex-col md:justify-center md:text-center'>
+        <div className=' lg:grid grid-cols-2 gap-6 lg:w-1/2 flex flex-col md:justify-center md:text-center'>
             <Getfundprops
                 number = '01.'
                 title = "Ease And Efficiency"
