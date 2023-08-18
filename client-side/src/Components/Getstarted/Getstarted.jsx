@@ -4,9 +4,21 @@ import {BsDash} from 'react-icons/bs'
 
 const Getstarted = () => {
     const [open, setOpen] = useState(false)
+    const [open2, setOpen2] = useState(false)
+    const [open3, setOpen3] = useState(false)
+    const [open4, setOpen4] = useState(false)
 
     const handleAccordion = () =>{
         setOpen(!open)
+    }
+    const handleAccordion2 = () =>{
+        setOpen2(!open2)
+    }
+    const handleAccordion3 = () =>{
+        setOpen3(!open3)
+    }
+    const handleAccordion4 = () =>{
+        setOpen4(!open4)
     }
   return (
     <div>
@@ -20,7 +32,7 @@ const Getstarted = () => {
             </div>
             <div className='lg:w-1/2 text-left head text-[grey] gap-5 flex flex-col'>
                 <div className='flex flex-col w-full justify-between items-center py-2 px-4 border-b-2'>
-                    <div onClick={handleAccordion} className='flex w-full justify-between'>
+                    <div onClick={handleAccordion} className='flex w-full justify-between cursor-pointer'>
                         <h1 className='text-xl lg:text-3xl'>01. User Registration</h1>
                         <div>
                             {open? <BsDash/>:<img src={plus} alt="" />}
@@ -28,17 +40,32 @@ const Getstarted = () => {
                     </div>
                     <p className={open? 'accordion':'h-0 overflow-hidden text-[20px] leading-[22px] text-justify mt-2 '}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis aut eveniet tempora quidem reiciendis voluptates temporibus maxime similique mollitia a. Unde nihil tempora eveniet fuga, deleniti, at, omnis officiis adipisci aliquid voluptas beatae quidem ipsa ullam. Reprehenderit pariatur modi repellat neque qui quas esse velit fugiat architecto illum, consequatur debitis!</p>
                 </div>
-                <div className='flex w-full justify-between items-center py-2 px-4 border-b-2 bg-white'>
-                    <h1 className='text-xl lg:text-3xl'>02. Loan Application</h1>
-                    <img src={plus} alt="" />
+                <div className='flex flex-col w-full justify-between items-center py-2 px-4 border-b-2'>
+                    <div onClick={handleAccordion2} className='flex w-full justify-between cursor-pointer'>
+                        <h1 className='text-xl lg:text-3xl'>02. Loan Application</h1>
+                        <div>
+                            {open2? <BsDash/>:<img src={plus} alt="" />}
+                        </div>
+                    </div>
+                    <p className={open2? 'accordion':'h-0 overflow-hidden text-[20px] leading-[22px] text-justify mt-2 '}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis aut eveniet tempora quidem reiciendis voluptates temporibus maxime similique mollitia a. Unde nihil tempora eveniet fuga, deleniti, at, omnis officiis adipisci aliquid voluptas beatae quidem ipsa ullam. Reprehenderit pariatur modi repellat neque qui quas esse velit fugiat architecto illum, consequatur debitis!</p>
                 </div>
-                <div className='flex w-full justify-between items-center py-2 px-4 border-b-2 bg-white'>
-                    <h1 className='text-xl lg:text-3xl'>03. Consultation with Loan Officers</h1>
-                    <img src={plus} alt="" />
+                <div className='flex flex-col w-full justify-between items-center py-2 px-4 border-b-2'>
+                    <div onClick={handleAccordion3} className='flex w-full justify-between cursor-pointer'>
+                        <h1 className='text-xl lg:text-3xl'>03. Consultation with Loan Officers</h1>
+                        <div>
+                            {open3? <BsDash/>:<img src={plus} alt="" />}
+                        </div>
+                    </div>
+                    <p className={open3? 'accordion':'h-0 overflow-hidden text-[20px] leading-[22px] text-justify mt-2 '}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis aut eveniet tempora quidem reiciendis voluptates temporibus maxime similique mollitia a. Unde nihil tempora eveniet fuga, deleniti, at, omnis officiis adipisci aliquid voluptas beatae quidem ipsa ullam. Reprehenderit pariatur modi repellat neque qui quas esse velit fugiat architecto illum, consequatur debitis!</p>
                 </div>
-                <div className='flex w-full justify-between items-center py-2 px-4 border-b-2 bg-white'>
-                    <h1 className='text-xl lg:text-3xl'>04. loan Approval and Disbursement</h1>
-                    <img src={plus} alt="" />
+                <div className='flex flex-col w-full justify-between items-center py-2 px-4 border-b-2'>
+                    <div onClick={handleAccordion4} className='flex w-full justify-between cursor-pointer'>
+                        <h1 className='text-xl lg:text-3xl'>03. Consultation with Loan Officers</h1>
+                        <div>
+                            {open4? <BsDash/>:<img src={plus} alt="" />}
+                        </div>
+                    </div>
+                    <p className={open4? 'accordion':'h-0 overflow-hidden text-[20px] leading-[22px] text-justify mt-2 '}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis aut eveniet tempora quidem reiciendis voluptates temporibus maxime similique mollitia a. Unde nihil tempora eveniet fuga, deleniti, at, omnis officiis adipisci aliquid voluptas beatae quidem ipsa ullam. Reprehenderit pariatur modi repellat neque qui quas esse velit fugiat architecto illum, consequatur debitis!</p>
                 </div>
             </div>
         </div>
