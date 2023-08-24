@@ -1,27 +1,27 @@
 export const userData = [
     {
         month: 'Jan',
-        paidTime: 2000,
-        duePayment: 25000
+        paidTime: 700000,
+        duePayment: 500000
     },
     {
         month: 'Feb',
-        paidTime: 30000,
-        duePayment: 45000
+        paidTime: 500000,
+        duePayment: 450000
     },
     {
         month: 'Mar',
         paidTime: 50000,
-        duePayment: 15000
+        duePayment: 150000
     },
     {
         month: 'Apr',
         paidTime: 80000,
-        duePayment: 75000
+        duePayment: 758000
     },
     {
         month: 'May',
-        paidTime: 10000,
+        paidTime: 600000,
         duePayment: 25000
     },
     {
@@ -41,12 +41,12 @@ export const userData = [
     },
     {
         month: 'Sep',
-        paidTime: 20000,
+        paidTime: 650000,
         duePayment: 26000
     },
     {
         month: 'Oct',
-        paidTime: 30000,
+        paidTime: 800000,
         duePayment: 25000
     },
     {
