@@ -1,9 +1,25 @@
-import React from 'react'
+import React, { useState } from 'react'
 import chart from '../../../Images/Chart 7.png'
 import del from '../../../Images/Vector (11).png'
+import LineChart from './LineChart/LineChart'
+import { userData } from './LineChart/Data'
+
 
 
 const Rightcontent = () => {
+  const [graphical, setGraphical] = useState({
+    labels: userData.map((data)=> data.month),
+    datasets:[
+      {
+        label: 'Paid Time',
+        data: userData.map((data)=> data.paidTime)
+      },
+      {
+        label: 'Due Payment',
+        data: userData.map((data)=> data.duePayment)
+      },
+    ]
+  })
   return (
     <div className=' w-full py-10 px-3 lg:px-10 flex flex-col gap-6 text-left h-[92vh] overflow-x-scroll'>
       <h4 className='nunito'>Dashboard</h4>
@@ -23,8 +39,9 @@ const Rightcontent = () => {
       </div>
 
       {/* =============== Chart Area ====================== */}
-        <img src={chart} alt="" />
-
+      <div className='bg-white px-10 py-10 rounded-3xl'>
+        <LineChart graphData={graphical}/>
+      </div>
       <div className='py-10 px-10 bg-white rounded-3xl'>
         <h2 className='capitalize nunito'>payment history</h2>
         <table className='w-full flex flex-col gap-3'>

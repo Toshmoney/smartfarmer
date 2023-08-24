@@ -10,6 +10,8 @@ import Dashboard from './Components/Dashboard/Dashboard';
 import Forget from './Components/Forgetpass/Forget';
 import Codeverification from './Components/Forgetpass/Verification/Codeverification';
 import Resetpass from './Components/ResetPassword/Resetpass';
+import ApexCharts from 'apexcharts'
+
 
 
 function App() {

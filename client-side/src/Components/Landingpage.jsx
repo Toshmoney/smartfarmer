@@ -8,6 +8,7 @@ import Getstarted from './Getstarted/Getstarted'
 import Aboutus from './Aboutus/Aboutus'
 import Footer from './Footer/Footer'
 
+
 const Landingpage = () => {
   return (
     <div>
