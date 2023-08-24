@@ -122,6 +122,12 @@ svg{
   flex-direction: column;
   gap: 2.5rem;
 }
+.navigation-after{
+  background-color: white;
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+}
 .accordion{
   display: block;
   font-size: 20px;
@@ -129,5 +135,8 @@ svg{
   text-align: justify;
   margin-top: 2px;
   height: 100%;
+}
+.title{
+  display: none;
 }
 
