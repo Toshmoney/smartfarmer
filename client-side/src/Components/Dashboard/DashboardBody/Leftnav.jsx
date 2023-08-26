@@ -62,7 +62,7 @@ const Leftnav = () => {
                 </a>
             </div>
         </div>
-        <div className={open? "absolute w-[40%] h-[92%] justify-between flex flex-col bg-white ease-in duration-300":'lg:hidden bg-white w-[0] overflow-hidden md:w-0 flex flex-col h-[92%] justify-between ease-in duration-300 absolute'}>
+        <div className={open? "absolute w-[50%] h-[92%] justify-between flex flex-col bg-white ease-in duration-300":'lg:hidden bg-white w-[0] overflow-hidden md:w-0 flex flex-col h-[92%] justify-between ease-in duration-300 absolute'}>
             <div className='pl-3 flex flex-col gap-12 mt-7'>
                 <a href='' className='flex gap-2 items-center '>
                     <LuLayoutDashboard className='icon'/>
@@ -98,7 +98,7 @@ const Leftnav = () => {
                 <p className={tog? "title":'nunito text-white text-[20px] font-extrabold'}>Log out</p>
             </a>
         </div>
-        <div  className='lg:hidden absolute right-[13%] top-[10%]'>
+        <div  className='lg:hidden absolute right-[13%] md:top-[10%] top-[14%]'>
             <GiFarmTractor onClick={handleTracktor} className={open?'ease-linear':"translate-x-0"}/>
         </div>
     </>
