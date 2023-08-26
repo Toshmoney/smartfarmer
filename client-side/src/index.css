@@ -115,7 +115,7 @@ svg{
   width: 20%;
 }
 .navigation{
-  background-color: white;
+  background-color: white !important;
   width: 13%;
   height: 92.5vh;
   display: flex;

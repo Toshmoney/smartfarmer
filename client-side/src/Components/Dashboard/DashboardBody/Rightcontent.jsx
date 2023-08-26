@@ -3,10 +3,14 @@ import chart from '../../../Images/Chart 7.png'
 import del from '../../../Images/Vector (11).png'
 import LineChart from './LineChart/LineChart'
 import { userData } from './LineChart/Data'
+import {GiFarmTractor} from 'react-icons/gi'
 
 
 
 const Rightcontent = () => {
+  const handleTracktor = () =>{
+    
+  }
   const [graphical, setGraphical] = useState({
     labels: userData.map((data)=> data.month),
     datasets:[
@@ -22,8 +26,11 @@ const Rightcontent = () => {
   })
   return (
     <div className=' w-full py-10 px-3 lg:px-10 flex flex-col gap-6 text-left h-[92vh] overflow-x-scroll'>
-      <h4 className='nunito'>Dashboard</h4>
-      <div className='w-[100%] flex flex-row justify-between'>
+      <div className='flex flex-row w-full justify-between'>
+        <h4 className='nunito'>Dashboard</h4>
+        <GiFarmTractor onClick={handleTracktor} className='lg:hidden' />
+      </div>
+      <div className='w-[100%] flex flex-col gap-6 lg:flex-row justify-between'>
         <div className='py-7 px-8 bg-white rounded-2xl text-center nunito'>
           <p>Estimated Loan</p>
           <h1>NGN 500,000</h1>
@@ -39,7 +46,7 @@ const Rightcontent = () => {
       </div>
 
       {/* =============== Chart Area ====================== */}
-      <div className='bg-white px-10 py-10 rounded-3xl'>
+      <div className='bg-white px-10 py-10 rounded-3xl w-full'>
         <LineChart graphData={graphical}/>
       </div>
       <div className='py-10 px-10 bg-white rounded-3xl'>
