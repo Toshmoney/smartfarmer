@@ -99,7 +99,7 @@ const Leftnav = () => {
             </a>
         </div>
         <div  className='lg:hidden absolute right-[13%] md:top-[10%] top-[14%]'>
-            <GiFarmTractor onClick={handleTracktor} className={open?'ease-linear':"translate-x-0"}/>
+            <GiFarmTractor onClick={handleTracktor} className={open? 'translate-x-10 duration-700':"translate-x-0 duration-700"}/>
         </div>
     </>
   )
