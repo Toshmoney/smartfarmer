@@ -44,9 +44,9 @@ const Rightcontent = () => {
       <div className='bg-white px-10 py-10 rounded-3xl w-full'>
         <LineChart graphData={graphical}/>
       </div>
-      <div className='py-10 px-10 bg-white rounded-3xl'>
+      <div className='py-10 px-10 bg-white rounded-3xl w-full '>
         <h2 className='capitalize nunito'>payment history</h2>
-        <table className='w-full flex flex-col gap-3'>
+        <table className='lg:w-full flex flex-col gap-3  md:overflow-x-scroll'>
           <div className='flex flex-row'>
             <h3 className='name'>Recipent Name</h3>
             <h3 className='others'>Bank Name</h3>
