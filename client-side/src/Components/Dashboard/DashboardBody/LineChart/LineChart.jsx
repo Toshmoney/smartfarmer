@@ -4,7 +4,7 @@ import {Chart} from 'chart.js/auto'
 
 const LineChart = ({graphData}) => {
   return (
-    <Line data={graphData}/>
+    <Line className='w-full' data={graphData}/>
   )
 }
 

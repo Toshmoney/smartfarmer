@@ -8,9 +8,7 @@ import {GiFarmTractor} from 'react-icons/gi'
 
 
 const Rightcontent = () => {
-  const handleTracktor = () =>{
-    
-  }
+  
   const [graphical, setGraphical] = useState({
     labels: userData.map((data)=> data.month),
     datasets:[
@@ -26,10 +24,7 @@ const Rightcontent = () => {
   })
   return (
     <div className=' w-full py-10 px-3 lg:px-10 flex flex-col gap-6 text-left h-[92vh] overflow-x-scroll'>
-      <div className='flex flex-row w-full justify-between'>
-        <h4 className='nunito'>Dashboard</h4>
-        <GiFarmTractor onClick={handleTracktor} className='lg:hidden' />
-      </div>
+      <h4 className='nunito'>Dashboard</h4>
       <div className='w-[100%] flex flex-col gap-6 lg:flex-row justify-between'>
         <div className='py-7 px-8 bg-white rounded-2xl text-center nunito'>
           <p>Estimated Loan</p>
