@@ -11,6 +11,7 @@ import Forget from './Components/Forgetpass/Forget';
 import Codeverification from './Components/Forgetpass/Verification/Codeverification';
 import Resetpass from './Components/ResetPassword/Resetpass';
 import ApexCharts from 'apexcharts'
+import Aboutus from './Components/Page2/Aboutus';
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path='/' element={<Landingpage/>}/>
+        <Route path='/about' element={<Aboutus/>}/>
         <Route path='/works' element={<WorkPage/>}/>
         <Route path='/support' element={<Support/>}/>
         <Route path='/signin' element={<Login/>}/>
