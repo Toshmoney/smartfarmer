@@ -2,6 +2,8 @@ import React from 'react'
 import person1 from '../../Images/Rectangle 43.png'
 import person2 from '../../Images/Rectangle 44.png'
 import person3 from '../../Images/Rectangle 45.png'
+import rect46 from '../../Images/Rectangle 46.png'
+import rect47 from '../../Images/Rectangle 46 (1).png'
 
 const Vision = () => {
   return (
@@ -15,12 +17,19 @@ const Vision = () => {
             <img src={person2} alt="" />
             <img src={person3} alt="" />
         </div>
-        <div className='w-full flex flex-row justify-between items-center'>
-            <img src="" alt="" />
-            <div>
-                <h1>help farmers get access to the right funds</h1>
+        <div className='w-full flex flex-row justify-between  items-center'>
+            <img src={rect46} alt="" />
+            <div className='w-[40%] text-left'>
+                <h1 className='nunito lg:text-4xl w-[80%] capitalize'>help farmers get access to the right funds</h1>
                 <p className='nunito text-[grey] text-[15px] lg:text-[18px] capitalize'>easy access to 5million worth of loan for your business</p>
             </div>
+        </div>
+        <div className='w-full flex flex-row justify-between items-center'>
+            <div className='w-[40%] text-left'>
+                <h1 className='nunito lg:text-4xl w-[80%] capitalize'>help farmers get access to the right funds</h1>
+                <p className='nunito text-[grey] text-[15px] lg:text-[18px] capitalize'>easy access to 5million worth of loan for your business</p>
+            </div>
+            <img src={rect47} alt="" />
         </div>
     </div>
   )
