@@ -12,7 +12,7 @@ const Header = () => {
     <div className="w-100 w-[100%] flex items-center py-9 justify-center">
         <div className="container flex text-left justify-between w-full items-center">
             <div className="w-[20%]">
-                <img src={logo} alt="" />
+                <a href="/"><img src={logo} alt="" /></a>
             </div>
             <div className="hidden lg:flex justify-between w-[60%]">
                 <div className="flex justify-between gap-x-10">
