@@ -12,10 +12,10 @@ const Vision = () => {
             <h1 className='nunito capitalize text-2xl lg:text-4xl w-full lg:w-[37%]'>our vision to the farmer in africa.</h1>
             <p className='nunito text-[grey] text-[15px] lg:text-[18px] capitalize'>easy access to 5million worth of loan for your business</p>
         </div>
-        <div className="flex flex-col gap-5 lg:gap-0 lg:flex-row justify-between py-[2rem] lg:py-[5rem]">
-            <img src={person1} alt="" />
-            <img src={person2} alt="" />
-            <img src={person3} alt="" />
+        <div className="flex flex-col gap-5 lg:gap-10 lg:flex-row items-center py-[2rem] lg:py-[5rem]">
+            <img className=' w-[80%] lg:w-[40%]' src={person1} alt="" />
+            <img className='w-[80%] lg:w-[40%]' src={person2} alt="" />
+            <img className='w-[80%] lg:w-[40%]' src={person3} alt="" />
         </div>
         <div className='w-full flex flex-col lg:flex-row justify-between  items-center'>
             <img src={rect46} alt="" />

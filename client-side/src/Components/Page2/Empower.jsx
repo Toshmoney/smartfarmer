@@ -9,7 +9,7 @@ const Empower = () => {
                 <h1 className='nunito text-2xl lg:text-5xl capitalize lg:w-[85%] lg:leading-[3.5rem] font-bold'>empower farmers by investing in the agriculture</h1>
                 <p className='nunito text-[grey] capitalize text-1xl lg:text-left lg:text-2xl w-full lg:w-[60%]'>easy access to 5million worth of loan for your business</p>
             </div>
-            <img className='lg:w-[494px] lg:h-[494px]' src={empower} alt="" />
+            <img className='w-[400px] h-[400px] lg:w-[494px] lg:h-[494px]' src={empower} alt="" />
         </div>
     </div>
   )
