@@ -1,11 +1,12 @@
 import React from 'react'
 import plus from '../../Images/plus.svg'
 import search from '../../Images/sss.svg'
+import { farmData } from './FarmData'
 
 const FarmContent = () => {
   return (
     <div className=' w-full py-5 px-3 lg:px-10 flex flex-col gap-6 text-left h-[92vh] overflow-x-scroll'>
-        <div className='bg-white rounded-xl p-6 items-center'>
+        <div className='bg-white rounded-xl p-6 items-center flex flex-col'>
             <div className='flex w-full items-center justify-between'>
                 <div>
                     <h4 className='nunito'>Farm Details</h4>
@@ -31,9 +32,46 @@ const FarmContent = () => {
                     <h5 className='text-white nunito'>Add Farm Details</h5>
                 </a>
             </div>
-        </div>
-        <div>
-    
+            <table className='mt-6 w-full'>
+                <tr className='flex justify-between w-full bg-[#FBFBFB] px-3 py-4'>
+                    <th className='w-[50%]'>Farm Name</th>
+                    <th className='w-[50%]'>Email Address</th>
+                    <th className='w-[50%]'>Phone Number</th>
+                    <th className='w-[20%]'>Farm Size</th>
+                    <th className='w-[20%]'>Date Founded</th>
+                    <th className='w-[10%]'>Action</th>
+                </tr>
+                {
+                    farmData.map(d=>{
+                        return(
+                            <tr className='flex w-full justify-between pl-2'> 
+                                <td className='w-[50%]'>
+                                    <div className='flex gap-1'>
+                                        <p>{d.No}</p>
+                                        <b>{d.name}</b>
+                                    </div>
+                                </td>
+                                <td className='w-[50%]'>
+                                    <b>{d.email}</b>
+                                </td>
+                                <td className='w-[50%]'>
+                                    <b>{d.phone}</b>
+                                </td>
+                                <td className='w-[20%]'>
+                                    {d.farmSize}
+                                </td>
+                                <td className='w-[20%]'>
+                                    {d.DateFounded}
+                                </td>
+                                <td className='w-[10%]'>
+                                    {d.action}
+                                </td>
+                            </tr>
+                        )
+                    })
+                }
+                
+            </table>
         </div>
     </div>
   )
