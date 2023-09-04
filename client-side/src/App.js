@@ -12,6 +12,7 @@ import Codeverification from './Components/Forgetpass/Verification/Codeverificat
 import Resetpass from './Components/ResetPassword/Resetpass';
 import ApexCharts from 'apexcharts'
 import Aboutus from './Components/Page2/Aboutus';
+import FarmDetails from './Components/DashFarm/FarmDetails';
 
 
 
@@ -30,6 +31,7 @@ function App() {
         <Route path='/resetpassword' element={<Resetpass/>}/>
         <Route path='/signup' element={<Signup/>}/>
         <Route path='/dashboard' element={<Dashboard/>}/>
+        <Route path='/farm-details' element={<FarmDetails/>}/>
       </Routes>
       </BrowserRouter>
     </div>

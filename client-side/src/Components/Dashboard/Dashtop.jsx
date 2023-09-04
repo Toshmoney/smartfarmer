@@ -21,7 +21,7 @@ const Dashtop = () => {
     setOpen(!open)
 }
   return (
-    <>
+  <>
     <div className='w-full flex justify-between px-6 py-3 bg-white border-b-2'>
         <div>
           <img className='hidden lg:block' src={logo} alt="" />
@@ -70,12 +70,12 @@ const Dashtop = () => {
             <p className='nunito text-[grey] text-[20px]' href="">Settings</p>
         </a>
     </div>
-    <a href='' className='bg-[#35CD8D] flex gap-2 text-left pl-3 py-8'>
-        <BiLogOutCircle className='icon' />
-        <p className='nunito text-white text-[20px] font-extrabold'>Log out</p>
-    </a>
-  </div>
-</>
+      <a href='' className='bg-[#35CD8D] flex gap-2 text-left pl-3 py-8'>
+          <BiLogOutCircle className='icon' />
+          <p className='nunito text-white text-[20px] font-extrabold'>Log out</p>
+      </a>
+    </div>
+  </>
   )
 }
 
