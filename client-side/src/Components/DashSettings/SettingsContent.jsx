@@ -1,6 +1,8 @@
 import React from 'react'
 import {BiUser} from 'react-icons/bi'
-import {CiLock} from 'react-icons/ci'
+import {CiLock, CiLocationOn} from 'react-icons/ci'
+import profile from '../../Images/setting prof.svg'
+import {TfiWorld} from 'react-icons/tfi'
 
 const SettingsContent = () => {
   return (
@@ -28,11 +30,62 @@ const SettingsContent = () => {
                 </div>
             </a>
         </div>
-        <div className='w-[70%] bg-white rounded-3xl p-10 flex flex-col'>
-            <div>
-                <h3>Profile</h3>
+        <div className='w-[70%] nunito bg-white rounded-3xl p-10 flex flex-col gap-12'>
+            <div className='flex w-full justify-between'>
+                <div>
+                    <h3>Profile</h3>
+                    <p>Your profile information show here</p>
+                </div>
+                <img src={profile} alt="" />
             </div>
-            
+            <form action="" className='flex gap-3 w-full'>
+                <div className='flex flex-col gap-[5rem] w-full'>
+                    <span>
+                        <h5>Full Name</h5>
+                        <div className='border-2 border-black flex px-1 gap-1 items-center rounded-2xl'>
+                            <BiUser className='w-[25px] h-[25px]'/>
+                            <input type="text" className='w-full py-3 outline-none bg-transparent' placeholder='E.G John Doe' />
+                        </div>
+                    </span>
+                    <span>
+                        <h5>Country</h5>
+                        <div className='border-2 border-black flex px-1 gap-1 items-center rounded-2xl'>
+                            <TfiWorld className='w-[25px] h-[25px]'/>
+                            <input type="text" className='w-full py-3 outline-none bg-transparent' placeholder='Nigeria' />
+                        </div>
+                    </span>
+                    <span>
+                        <h5>Full Name</h5>
+                        <div className='border-2 border-black flex px-1 gap-1 items-center rounded-2xl'>
+                            <CiLocationOn className='w-[25px] h-[25px]'/>
+                            <input type="text" className='w-full py-3 outline-none bg-transparent' placeholder='Ilorin' />
+                        </div>
+                    </span>
+                </div>
+                <div className='flex flex-col gap-[5rem] w-full'>
+                    <span>
+                        <h5>Full Name</h5>
+                        <div className='border-2 border-black flex px-1 gap-1 items-center rounded-2xl'>
+                            <BiUser className='w-[25px] h-[25px]'/>
+                            <input type="text" className='w-full py-3 outline-none bg-transparent' placeholder='E.G John Doe' />
+                        </div>
+                    </span>
+                    <span>
+                        <h5>Country</h5>
+                        <div className='border-2 border-black flex px-1 gap-1 items-center rounded-2xl'>
+                            <TfiWorld className='w-[25px] h-[25px]'/>
+                            <input type="text" className='w-full py-3 outline-none bg-transparent' placeholder='Nigeria' />
+                        </div>
+                    </span>
+                    <span>
+                        <h5>Full Name</h5>
+                        <div className='border-2 border-black flex px-1 gap-1 items-center rounded-2xl'>
+                            <CiLocationOn className='w-[25px] h-[25px]'/>
+                            <input type="text" className='w-full py-3 outline-none bg-transparent' placeholder='Ilorin' />
+                        </div>
+                    </span>
+                </div>
+            </form>
         </div>
     </div>
   )
