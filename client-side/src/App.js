@@ -13,6 +13,7 @@ import Resetpass from './Components/ResetPassword/Resetpass';
 import ApexCharts from 'apexcharts'
 import Aboutus from './Components/Page2/Aboutus';
 import FarmDetails from './Components/DashFarm/FarmDetails';
+// import 'antd/dist/antd.css';
 
 
 

@@ -41,11 +41,11 @@ const Dashtop = () => {
     </div>
     <div className={open ? "absolute w-[55%] h-[100%] overflow-hidden justify-between flex flex-col bg-white ease-in duration-300" : 'lg:hidden bg-white w-[0] overflow-hidden md:w-0 flex flex-col h-[89%] justify-between ease-in duration-300 absolute'}>
     <div className='pl-3 flex flex-col gap-12 mt-7'>
-        <a href='' className='flex gap-2 items-center '>
+        <a href='/dashboard' className='flex gap-2 items-center '>
             <LuLayoutDashboard className='icon' />
             <p className='nunito text-[#35CD8D] text-[20px]'>Dashboard</p>
         </a>
-        <a href='' className='flex gap-2 items-center'>
+        <a href='farm-details' className='flex gap-2 items-center'>
             <GiThreeLeaves className='icon' />
             <p className='nunito text-[grey] text-[20px]'>Farm Details</p>
         </a>
