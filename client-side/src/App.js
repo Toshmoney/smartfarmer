@@ -13,6 +13,7 @@ import Resetpass from './Components/ResetPassword/Resetpass';
 import ApexCharts from 'apexcharts'
 import Aboutus from './Components/Page2/Aboutus';
 import FarmDetails from './Components/DashFarm/FarmDetails';
+import SettingsDetails from './Components/DashSettings/SettingsDetails';
 // import 'antd/dist/antd.css';
 
 
@@ -33,6 +34,7 @@ function App() {
         <Route path='/signup' element={<Signup/>}/>
         <Route path='/dashboard' element={<Dashboard/>}/>
         <Route path='/farm-details' element={<FarmDetails/>}/>
+        <Route path='/settings' element={<SettingsDetails/>}/>
       </Routes>
       </BrowserRouter>
     </div>

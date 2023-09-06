@@ -30,7 +30,10 @@ const FarmContent = () => {
         }, 
         {
             title:'Farm Size',
-            dataIndex:'farmSize'
+            dataIndex:'farmSize',
+            sorter:(farm1,farm2)=>{
+                return(farm1.farmSize > farm2.farmSize)
+            },
         }, 
         {
             title:'Date Founded',
