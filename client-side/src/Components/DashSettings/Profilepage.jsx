@@ -14,9 +14,9 @@ const Profilepage = () => {
                 </div>
                 <img src={profile} alt="" />
             </div>
-            <form action="" className='flex flex-col gap-[5rem] w-full'>
+            <form action="" className='flex flex-col lg:gap-[5rem] gap-[1rem] w-full'>
                 <div className='flex lg:flex-row flex-col gap-4'>
-                    <div className='flex flex-col gap-[5rem] w-full'>
+                    <div className='flex flex-col lg:gap-[5rem] gap-[1rem] w-full'>
                         <span>
                             <h5>Full Name</h5>
                             <div className='border-2 border-[grey] flex px-1 gap-1 items-center rounded-2xl'>
@@ -39,24 +39,24 @@ const Profilepage = () => {
                             </div>
                         </span>
                     </div>
-                    <div className='flex flex-col gap-[5rem] w-full'>
+                    <div className='flex flex-col lg:gap-[5rem] gap-[1rem] w-full'>
                         <span>
                             <h5>Full Name</h5>
-                            <div className='border-2 border-black flex px-1 gap-1 items-center rounded-2xl'>
+                            <div className='border-2 border-[grey] flex px-1 gap-1 items-center rounded-2xl'>
                                 <BiUser className='w-[25px] h-[25px]' />
-                                <input type="text" className='w-full py-3 outline-none bg-transparent' placeholder='E.G John Doe' />
+                                <input type="text" className='w-full  py-3 outline-none bg-transparent' placeholder='E.G John Doe' />
                             </div>
                         </span>
                         <span>
                             <h5>Country</h5>
-                            <div className='border-2 border-black flex px-1 gap-1 items-center rounded-2xl'>
+                            <div className='border-2 border-[grey] flex px-1 gap-1 items-center rounded-2xl'>
                                 <TfiWorld className='w-[25px] h-[25px]' />
                                 <input type="text" className='w-full py-3 outline-none bg-transparent' placeholder='Nigeria' />
                             </div>
                         </span>
                         <span>
                             <h5>Full Name</h5>
-                            <div className='border-2 border-black flex px-1 gap-1 items-center rounded-2xl'>
+                            <div className='border-2 border-[grey] flex px-1 gap-1 items-center rounded-2xl'>
                                 <CiLocationOn className='w-[25px] h-[25px]' />
                                 <input type="text" className='w-full py-3 outline-none bg-transparent' placeholder='Ilorin' />
                             </div>
