@@ -14,6 +14,7 @@ import ApexCharts from 'apexcharts'
 import Aboutus from './Components/Page2/Aboutus';
 import FarmDetails from './Components/DashFarm/FarmDetails';
 import SettingsDetails from './Components/DashSettings/SettingsDetails';
+import LoanDetails from './Components/DashLoanApplication/LoanDetails';
 // import 'antd/dist/antd.css';
 
 
@@ -35,6 +36,7 @@ function App() {
         <Route path='/dashboard' element={<Dashboard/>}/>
         <Route path='/farm-details' element={<FarmDetails/>}/>
         <Route path='/settings' element={<SettingsDetails/>}/>
+        <Route path='/loan-application' element={<LoanDetails/>}/>
       </Routes>
       </BrowserRouter>
     </div>
