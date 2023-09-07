@@ -1,4 +1,4 @@
-
+import del from '../../Images/del.svg'
 export const farmData = [
     {
         No: 1,
@@ -7,7 +7,7 @@ export const farmData = [
         phone: '+234819808766',
         farmSize: 200,
         DateFounded: 2022,
-        action:'del'
+        action: <img src={del}/>
     }, 
     {
         No: 2,
@@ -16,7 +16,7 @@ export const farmData = [
         phone: '+234913392374',
         farmSize: 10,
         DateFounded: 2014,
-        action:'del'
+        action: <img src={del}/>
     }, 
     {
         No: 3,
@@ -25,7 +25,7 @@ export const farmData = [
         phone: '+234819808766',
         farmSize: 80,
         DateFounded: 2022,
-        action:'del'
+        action: <img src={del}/>
     }, 
     {
         No: 4,
@@ -34,7 +34,7 @@ export const farmData = [
         phone: '+234819808766',
         farmSize: 30,
         DateFounded: 2022,
-        action:'del'
+        action: <img src={del}/>
     }, 
     {
         No: 5,
@@ -43,7 +43,7 @@ export const farmData = [
         phone: '+234819808766',
         farmSize: 40,
         DateFounded: 2022,
-        action:'del'
+        action: <img src={del}/>
     }, 
     {
         No: 6,
@@ -52,7 +52,7 @@ export const farmData = [
         phone: '+234819808766',
         farmSize: 200,
         DateFounded: 2022,
-        action:'del'
+        action: <img src={del}/>
     }, 
     {
         No: 7,
@@ -61,7 +61,7 @@ export const farmData = [
         phone: '+234819808766',
         farmSize: 200,
         DateFounded: 2022,
-        action:'del'
+        action: <img src={del}/>
     }, 
     {
         No: 8,
@@ -70,7 +70,7 @@ export const farmData = [
         phone: '+234819808766',
         farmSize: 200,
         DateFounded: 2022,
-        action:'del'
+        action: <img src={del}/>
     }, 
     {
         No: 9,
@@ -79,7 +79,7 @@ export const farmData = [
         phone: '+234819808766',
         farmSize: 200,
         DateFounded: 2022,
-        action:'del'
+        action: <img src={del}/>
     }, 
     {
         No: 10,
@@ -88,7 +88,7 @@ export const farmData = [
         phone: '+234819808766',
         farmSize: 200,
         DateFounded: 2022,
-        action:'del'
+        action: <img src={del}/>
     }, 
     {
         No: 11,
@@ -97,7 +97,7 @@ export const farmData = [
         phone: '+234819808766',
         farmSize: 200,
         DateFounded: 2022,
-        action:'del'
+        action: <img src={del}/>
     }, 
     {
         No: 12,
@@ -106,7 +106,7 @@ export const farmData = [
         phone: '+234819808766',
         farmSize: 200,
         DateFounded: 2022,
-        action:'del'
+        action: <img src={del}/>
     }, 
     {
         No: 13,
@@ -115,7 +115,7 @@ export const farmData = [
         phone: '+234819808766',
         farmSize: 200,
         DateFounded: 2022,
-        action:'del'
+        action: <img src={del}/>
     }, 
     {
         No: 14,
@@ -124,7 +124,7 @@ export const farmData = [
         phone: '+234819808766',
         farmSize: 200,
         DateFounded: 2022,
-        action:'del'
+        action: <img src={del}/>
     }, 
     {
         No: 15,
@@ -133,7 +133,7 @@ export const farmData = [
         phone: '+234819808766',
         farmSize: 200,
         DateFounded: 2022,
-        action:'del'
+        action: <img src={del}/>
     }, 
     {
         No: 16,
@@ -142,7 +142,7 @@ export const farmData = [
         phone: '+234819808766',
         farmSize: 200,
         DateFounded: 2022,
-        action:'del'
+        action: <img src={del}/>
     }, 
     {
         No: 17,
@@ -151,7 +151,7 @@ export const farmData = [
         phone: '+234819808766',
         farmSize: 200,
         DateFounded: 2022,
-        action:'del'
+        action: <img src={del}/>
     }, 
     {
         No: 18,
@@ -160,7 +160,7 @@ export const farmData = [
         phone: '+234819808766',
         farmSize: 200,
         DateFounded: 2022,
-        action:'del'
+        action: <img src={del}/>
     }, 
     {
         No: 19,
@@ -169,7 +169,7 @@ export const farmData = [
         phone: '+234819808766',
         farmSize: 200,
         DateFounded: 2022,
-        action:'del'
+        action: <img src={del}/>
     }, 
     {
         No: 20,
@@ -178,7 +178,7 @@ export const farmData = [
         phone: '+234819808766',
         farmSize: 200,
         DateFounded: 2022,
-        action:'del'
+        action: <img src={del}/>
     }, 
     {
         No: 21,
@@ -187,7 +187,7 @@ export const farmData = [
         phone: '+234819808766',
         farmSize: 200,
         DateFounded: 2022,
-        action:'del'
+        action: <img src={del}/>
     }, 
     {
         No: 22,
@@ -196,7 +196,7 @@ export const farmData = [
         phone: '+234819808766',
         farmSize: 200,
         DateFounded: 2022,
-        action:'del'
+        action: <img src={del}/>
     }, 
     {
         No: 23,
@@ -205,7 +205,7 @@ export const farmData = [
         phone: '+234819808766',
         farmSize: 200,
         DateFounded: 2022,
-        action:'del'
+        action: <img src={del}/>
     }, 
     {
         No: 23,
@@ -214,7 +214,7 @@ export const farmData = [
         phone: '+234819808766',
         farmSize: 200,
         DateFounded: 2022,
-        action:'del'
+        action: <img src={del}/>
     }, 
     {
         No: 24,
@@ -223,7 +223,7 @@ export const farmData = [
         phone: '+234819808766',
         farmSize: 200,
         DateFounded: 2022,
-        action:'del'
+        action: <img src={del}/>
     }, 
     {
         No: 25,
@@ -232,7 +232,7 @@ export const farmData = [
         phone: '+234819808766',
         farmSize: 200,
         DateFounded: 2022,
-        action:'del'
+        action: <img src={del}/>
     }, 
     {
         No: 26,
@@ -241,7 +241,7 @@ export const farmData = [
         phone: '+234819808766',
         farmSize: 200,
         DateFounded: 2022,
-        action:'del'
+        action: <img src={del}/>
     }, 
     {
         No: 27,
@@ -250,7 +250,7 @@ export const farmData = [
         phone: '+234819808766',
         farmSize: 200,
         DateFounded: 2022,
-        action:'del'
+        action: <img src={del}/>
     }, 
     {
         No: 28,
@@ -259,7 +259,7 @@ export const farmData = [
         phone: '+234819808766',
         farmSize: 200,
         DateFounded: 2022,
-        action:'del'
+        action: <img src={del}/>
     }, 
     {
         No: 29,
@@ -268,7 +268,7 @@ export const farmData = [
         phone: '+234819808766',
         farmSize: 200,
         DateFounded: 2022,
-        action:'del'
+        action: <img src={del}/>
     }, 
     {
         No: 30,
@@ -277,7 +277,7 @@ export const farmData = [
         phone: '+234819808766',
         farmSize: 200,
         DateFounded: 2022,
-        action:'del'
+        action: <img src={del}/>
     }, 
     {
         No: 31,
@@ -286,6 +286,6 @@ export const farmData = [
         phone: '+234819808766',
         farmSize: 200,
         DateFounded: 2022,
-        action:'del'
+        action: <img src={del}/>
     }, 
 ]

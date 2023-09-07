@@ -3,7 +3,7 @@ import plus from '../../Images/plus.svg'
 import search from '../../Images/sss.svg'
 import { farmData } from './FarmData'
 import {Table,Input} from 'antd' 
-
+import '../../App.css'
 const FarmContent = () => {
     const [page, setPage] = useState(1)
     const [pageSize, setPageSize] = useState(10)
@@ -31,8 +31,8 @@ const FarmContent = () => {
         {
             title:'Farm Size',
             dataIndex:'farmSize',
-            sorter:(farm1,farm2)=>{
-                return(farm1.farmSize > farm2.farmSize)
+            sorter:(farm1,farm2) =>{
+                return(farm1.farmSize > farm2.farmSize) 
             },
         }, 
         {
