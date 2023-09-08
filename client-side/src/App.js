@@ -15,6 +15,7 @@ import Aboutus from './Components/Page2/Aboutus';
 import FarmDetails from './Components/DashFarm/FarmDetails';
 import SettingsDetails from './Components/DashSettings/SettingsDetails';
 import LoanDetails from './Components/DashLoanApplication/LoanDetails';
+import RepaymentDetails from './Components/DashRepayment/RepaymentDetails';
 // import 'antd/dist/antd.css';
 
 
@@ -37,6 +38,7 @@ function App() {
         <Route path='/farm-details' element={<FarmDetails/>}/>
         <Route path='/settings' element={<SettingsDetails/>}/>
         <Route path='/loan-application' element={<LoanDetails/>}/>
+        <Route path='/repayment' element={<RepaymentDetails/>}/>
       </Routes>
       </BrowserRouter>
     </div>

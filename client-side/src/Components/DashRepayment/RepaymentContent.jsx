@@ -1,11 +1,14 @@
 import React from 'react'
+import plus from '../../Images/plus.svg'
+import search from '../../Images/sss.svg'
 import {Table} from 'antd'
+import { RepaymentData, columns } from './RepaymentData'
 
 const RepaymentContent = () => {
     return (
-        <div>
-            <div className='bg-white overflow-x-auto rounded-xl p-6 items-center flex flex-col'>
-                <div className='flex w-full lg:flex-row flex-col lg:gap-0 gap-3 items-center justify-between'>
+        <div className='w-full py-5 px-3 lg:px-10 flex flex-col gap-6 text-left h-[92vh] overflow-y-auto'>
+            <div className='bg-white overflow-x-auto rounded-xl gap-2 p-6 items-center flex flex-col'>
+                <div className='flex w-full lg:flex-row flex-col gap-3 items-center justify-between'>
                     <div>
                         <h4 className='nunito'>Loan Application</h4>
                         <p className='capitalize nunito'>Apply for Loan Application</p>
@@ -34,7 +37,7 @@ const RepaymentContent = () => {
                     <header className='App-header w-full'>
                         <Table
                             columns={columns}
-                            dataSource={LoandData}
+                            dataSource={RepaymentData}
                         >
 
                         </Table>

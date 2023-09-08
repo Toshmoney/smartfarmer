@@ -47,14 +47,14 @@ export const columns = [
     dataIndex: "action"
   },
 ]
-export const LoandData = [
+export const RepaymentData = [
   {
     No:1,
     LoanID: 79214204,
     Amount: 'NGN 10,000.00',
     LoanDuration: '2 months',
     RepaymentStatus: 'Paid',
-    LoanDate: '17 Oct, 2020',
+    RepaidDate: '17 Oct, 2020',
     action: <img src={del} alt='' />
   },
   {
@@ -63,7 +63,7 @@ export const LoandData = [
     Amount: 'NGN 200,000.00',
     LoanDuration: '12 months',
     RepaymentStatus: 'Pending',
-    LoanDate: '17 Oct, 2020',
+    RepaidDate: '17 Oct, 2020',
     action: <img src={del} alt=''/>
   },
   {
@@ -72,7 +72,7 @@ export const LoandData = [
     Amount: 'NGN 200,000.00',
     LoanDuration: '12 months',
     RepaymentStatus: 'Pending',
-    LoanDate: '17 Oct, 2020',
+    RepaidDate: '17 Oct, 2020',
     action: <img src={del} alt=''/>
   },
   {
@@ -81,7 +81,7 @@ export const LoandData = [
     Amount: 'NGN 200,000.00',
     LoanDuration: '2 years',
     RepaymentStatus: 'Pending',
-    LoanDate: '17 Oct, 2020',
+    RepaidDate: '17 Oct, 2020',
     action: <img src={del} alt=''/>
   },
   {
@@ -90,7 +90,7 @@ export const LoandData = [
     Amount: 'NGN 200,000.00',
     LoanDuration: '2 years',
     RepaymentStatus: 'Pending',
-    LoanDate: '17 Oct, 2020',
+    RepaidDate: '17 Oct, 2020',
     action: <img src={del} alt=''/>
   },
   {
@@ -99,7 +99,7 @@ export const LoandData = [
     Amount: 'NGN 200,000.00',
     LoanDuration: '6 months',
     RepaymentStatus: 'Pending',
-    LoanDate: '17 Oct, 2020',
+    RepaidDate: '17 Oct, 2020',
     action: <img src={del} alt=''/>
   },
   {
@@ -108,7 +108,7 @@ export const LoandData = [
     Amount: 'NGN 200,000.00',
     LoanDuration: '8 months',
     RepaymentStatus: 'Pending',
-    LoanDate: '17 Oct, 2020',
+    RepaidDate: '17 Oct, 2020',
     action: <img src={del} alt=''/>
   },
   {
@@ -117,7 +117,7 @@ export const LoandData = [
     Amount: 'NGN 200,000.00',
     LoanDuration: '4 months',
     RepaymentStatus: 'Paid',
-    LoanDate: '17 Oct, 2020',
+    RepaidDate: '17 Oct, 2020',
     action: <img src={del} alt=''/>
   },
   {
@@ -126,7 +126,7 @@ export const LoandData = [
     Amount: 'NGN 200,000.00',
     LoanDuration: '10 months',
     RepaymentStatus: 'Paid',
-    LoanDate: '17 Oct, 2020',
+    RepaidDate: '17 Oct, 2020',
     action: <img src={del} alt=''/>
   },
   {
@@ -135,7 +135,7 @@ export const LoandData = [
     Amount: 'NGN 200,000.00',
     LoanDuration: '7 months',
     RepaymentStatus: 'Paid',
-    LoanDate: '17 Oct, 2020',
+    RepaidDate: '17 Oct, 2020',
     action: <img src={del} alt=''/>
   },
   {
@@ -144,7 +144,7 @@ export const LoandData = [
     Amount: 'NGN 200,000.00',
     LoanDuration: '9 months',
     RepaymentStatus: 'Paid',
-    LoanDate: '17 Oct, 2020',
+    RepaidDate: '17 Oct, 2020',
     action: <img src={del} alt=''/>
   },
 ]

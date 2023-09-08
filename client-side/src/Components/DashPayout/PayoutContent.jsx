@@ -1,0 +1,50 @@
+import React from 'react'
+import plus from '../../Images/plus.svg'
+import search from '../../Images/sss.svg'
+import { PayoutData, columns } from './PayoutdData'
+
+const PayoutContent = () => {
+  return (
+    <div className=' w-full py-5 px-3 lg:px-10 flex flex-col gap-6 text-left h-[92vh] overflow-y-auto'>
+      <div className='bg-white overflow-x-auto rounded-xl p-6 items-center flex flex-col'>
+        <div className='flex w-full lg:flex-row flex-col lg:gap-0 gap-3 items-center justify-between'>
+          <div>
+            <h4 className='nunito'>Payout</h4>
+            <p className='capitalize nunito'>Your Payout information Show here</p>
+          </div>
+          <div className='lg:w-[40%] w-full'>
+            <div className='flex gap-2'>
+              <select className='border-[1px] border-black p-2 rounded-xl lg:w-[50%] w-full' name="" id="">
+                <option value="">Filter by</option>
+                <option value="">One</option>
+                <option value="">Two</option>
+                <option value="">Three</option>
+                <option value="">Four</option>
+              </select>
+              <div className='flex gap-1 border-[1px] border-black lg:w-[45%] w-full rounded-lg px-1'>
+                <img width={20} height={20} src={search} alt="" />
+                <input type="text" className="search"  placeholder='Search...'/>
+              </div>
+            </div>
+          </div>
+          <a className='flex items-center justify-center gap-1 w-full lg:w-[15%] rounded-lg p-3 bg-[#35CD8D]'>
+            <img src={plus} alt="" />
+            <h5 className='text-white nunito'>Withdraw Now</h5>
+          </a>
+        </div>
+        <div className='app flex w-full lg:overflow-y-auto overflow-x-auto bg-green-50'>
+            <header className='App-header w-full'>
+              <Table
+                columns={columns}
+                dataSource={PayoutData}
+              >
+                
+              </Table>
+            </header>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default PayoutContent

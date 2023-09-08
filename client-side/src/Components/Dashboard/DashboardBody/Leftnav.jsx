@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { LuLayoutDashboard } from 'react-icons/lu'
 import toggle from '../../../Images/Group 20.png'
 import { GiThreeLeaves } from 'react-icons/gi'
-import { BiHistory, BiLogOutCircle } from 'react-icons/bi'
+import { BiLogOutCircle } from 'react-icons/bi'
 import { FaAmazonPay } from 'react-icons/fa'
 import { AiOutlineSetting } from 'react-icons/ai'
 import { PiListNumbersBold } from 'react-icons/pi'
@@ -57,10 +57,6 @@ const Leftnav = () => {
                         <a href='repayment' className='flex gap-2 items-center'>
                             <GiThreeLeaves className='icon' />
                             <p className={tog ? "title" : 'nunito text-[grey] text-[20px]'}>Repayment</p>
-                        </a>
-                        <a href='loan-history' className='flex gap-2 items-center'>
-                            <BiHistory className='icon' />
-                            <p className={tog ? "title" : 'nunito text-[grey] text-[20px]'}>Loan History</p>
                         </a>
                         <a href='payout' className='flex gap-2 items-center'>
                             <FaAmazonPay className='icon' />
