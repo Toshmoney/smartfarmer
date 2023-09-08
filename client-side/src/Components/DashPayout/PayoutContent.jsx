@@ -2,6 +2,7 @@ import React from 'react'
 import plus from '../../Images/plus.svg'
 import search from '../../Images/sss.svg'
 import { PayoutData, columns } from './PayoutdData'
+import {Table} from 'antd'
 
 const PayoutContent = () => {
   return (

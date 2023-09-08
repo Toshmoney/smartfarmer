@@ -16,6 +16,7 @@ import FarmDetails from './Components/DashFarm/FarmDetails';
 import SettingsDetails from './Components/DashSettings/SettingsDetails';
 import LoanDetails from './Components/DashLoanApplication/LoanDetails';
 import RepaymentDetails from './Components/DashRepayment/RepaymentDetails';
+import PayoutDetails from './Components/DashPayout/PayoutDetails';
 // import 'antd/dist/antd.css';
 
 
@@ -39,6 +40,7 @@ function App() {
         <Route path='/settings' element={<SettingsDetails/>}/>
         <Route path='/loan-application' element={<LoanDetails/>}/>
         <Route path='/repayment' element={<RepaymentDetails/>}/>
+        <Route path='/payout' element={<PayoutDetails/>}/>
       </Routes>
       </BrowserRouter>
     </div>
