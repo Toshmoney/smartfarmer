@@ -27,15 +27,17 @@ export const columns = [
     render:(LoanStatus)=>{
       if(LoanStatus=== "Approved"){
       return(
-        <h6 className='text-[green] bg-[lightgreen]'>Approved</h6>
+        <h6 className='text-[green]'>Approved</h6>
       ) 
       }else if(LoanStatus === "Pending"){
-        return(<h6 className='text-[yellow] bg-[lightyellow]'> Pending</h6>)
+        return(<h6 className='text-[yellow]'> Pending</h6>)
       }else if( LoanStatus === "Failed"){
-        return (<h6 className='text-red-300 bg-[lightred]'>Failed</h6>)
+        return (<h6 className='text-red-300'>Failed</h6>)
       }
     },
-    sorter:true
+    sorter:(approved, failed, pending)=>{
+      return(approved.LoanStatus !== failed.LoanStatus !== pending.LoanStatus)
+    }
   },
   {
     title: "Loan Date",
