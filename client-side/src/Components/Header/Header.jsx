@@ -31,7 +31,7 @@ const Header = () => {
             {toggle? <FiX/>:<GiHamburgerMenu className="svg"/>}
         </div>
 
-        <div className={toggle? "toggle-sub":"toggle"}>
+        <div className={toggle? "lg:hidden toggle-sub":"toggle"}>
             <a className="font-bold hover:text-[#fff] ease-in duration-300" href="/about">About Us</a>
             <a className="font-bold hover:text-[#fff] ease-in duration-300" href="/works">How It Works</a>
             <a className="font-bold hover:text-[#fff] ease-in duration-300" href="/support">Support</a>
