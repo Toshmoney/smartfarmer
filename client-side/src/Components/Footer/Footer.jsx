@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div>
       <div className='relative bg-[#35CD8D] overflow-hidden w-[80%] lg:w-[60%] left-[10%] lg:left-[20%] top-20 items-center flex flex-col py-[8rem] z-10 rounded-3xl px-4'>
-        <h1 className='capitalize text-white text-[20px] md:text-[30px] lg:text-[40px] nunito lg:w-1/2 lg:leading-20'>our process is designed to make it easier for farmers</h1>
+        <h1 className='capitalize text-white text-[20px] md:text-[30px] lg:text-[35px] text-center nunito lg:w-1/2 lg:leading-20'>our process is designed to make it easier for farmers</h1>
         <div>
             <button className='bg-white font-medium py-3 px-8 rounded-2xl hover:bg-green ease-in duration-200 text-green lg:mt-5'>Get Started</button>
         </div>
