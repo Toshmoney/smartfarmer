@@ -6,7 +6,7 @@ const Quickprops2 = (props) =>{
     return(
         <div className="mt-10 px-5 flex flex-col-reverse gap-6 items-center lg:flex lg:flex-row">
             <div className='w-full text-center lg:w-[60%] flex flex-col gap-4 lg:text-left'>
-                <h1 className="head">{props.heading}</h1>
+                <h1 className="lg:text-[30px] text-[20px]">{props.heading}</h1>
                 <p className="w-full lg:w-[54%] capitalize">{props.paragraph}</p>
                 <div className="nunito grid lg:grid-cols-2 w-[80%]">
                     <div className="flex items-center">
