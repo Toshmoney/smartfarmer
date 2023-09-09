@@ -27,16 +27,16 @@ export const columns = [
     render:(LoanStatus)=>{
       if(LoanStatus=== "Approved"){
       return(
-        <h6 className='text-[green]'>Approved</h6>
+        <h6 className='text-[#35CD8D]'>Approved</h6>
       ) 
       }else if(LoanStatus === "Pending"){
-        return(<h6 className='text-[yellow]'> Pending</h6>)
-      }else if( LoanStatus === "Failed"){
-        return (<h6 className='text-red-300'>Failed</h6>)
+        return(<h6 className='text-[#FFA500]'> Pending</h6>)
+      }else if( LoanStatus === "Cancel"){
+        return (<h6 className='text-[#FF7456]'>Cancel</h6>)
       }
     },
-    sorter:(approved, failed, pending)=>{
-      return(approved.LoanStatus !== failed.LoanStatus !== pending.LoanStatus)
+    sorter:(approved, Cancel, pending)=>{
+      return(approved.LoanStatus !== Cancel.LoanStatus !== pending.LoanStatus)
     }
   },
   {
@@ -73,7 +73,7 @@ export const LoandData = [
     LoanID: 79214204,
     Amount: 'NGN 200,000.00',
     PhoneNumber: '+234813392374',
-    LoanStatus: 'Failed',
+    LoanStatus: 'Cancel',
     LoanDate: '17 Oct, 2020',
     action: <img src={del} alt=''/>
   },
@@ -82,7 +82,7 @@ export const LoandData = [
     LoanID: 79214204,
     Amount: 'NGN 200,000.00',
     PhoneNumber: '+234813392374',
-    LoanStatus: 'Failed',
+    LoanStatus: 'Cancel',
     LoanDate: '17 Oct, 2020',
     action: <img src={del} alt=''/>
   },
@@ -91,7 +91,7 @@ export const LoandData = [
     LoanID: 79214204,
     Amount: 'NGN 200,000.00',
     PhoneNumber: '+234813392374',
-    LoanStatus: 'Failed',
+    LoanStatus: 'Cancel',
     LoanDate: '17 Oct, 2020',
     action: <img src={del} alt=''/>
   },
@@ -100,7 +100,7 @@ export const LoandData = [
     LoanID: 79214204,
     Amount: 'NGN 200,000.00',
     PhoneNumber: '+234813392374',
-    LoanStatus: 'Failed',
+    LoanStatus: 'Cancel',
     LoanDate: '17 Oct, 2020',
     action: <img src={del} alt=''/>
   },
@@ -109,7 +109,7 @@ export const LoandData = [
     LoanID: 79214204,
     Amount: 'NGN 200,000.00',
     PhoneNumber: '+234813392374',
-    LoanStatus: 'Failed',
+    LoanStatus: 'Cancel',
     LoanDate: '17 Oct, 2020',
     action: <img src={del} alt=''/>
   },
@@ -118,7 +118,7 @@ export const LoandData = [
     LoanID: 79214204,
     Amount: 'NGN 200,000.00',
     PhoneNumber: '+234813392374',
-    LoanStatus: 'Failed',
+    LoanStatus: 'Cancel',
     LoanDate: '17 Oct, 2020',
     action: <img src={del} alt=''/>
   },
@@ -127,7 +127,7 @@ export const LoandData = [
     LoanID: 79214204,
     Amount: 'NGN 200,000.00',
     PhoneNumber: '+234813392374',
-    LoanStatus: 'Failed',
+    LoanStatus: 'Cancel',
     LoanDate: '17 Oct, 2020',
     action: <img src={del} alt=''/>
   },
@@ -136,7 +136,7 @@ export const LoandData = [
     LoanID: 79214204,
     Amount: 'NGN 200,000.00',
     PhoneNumber: '+234813392374',
-    LoanStatus: 'Failed',
+    LoanStatus: 'Cancel',
     LoanDate: '17 Oct, 2020',
     action: <img src={del} alt=''/>
   },
@@ -145,7 +145,7 @@ export const LoandData = [
     LoanID: 79214204,
     Amount: 'NGN 200,000.00',
     PhoneNumber: '+234813392374',
-    LoanStatus: 'Failed',
+    LoanStatus: 'Cancel',
     LoanDate: '17 Oct, 2020',
     action: <img src={del} alt=''/>
   },

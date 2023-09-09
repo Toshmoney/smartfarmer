@@ -13,21 +13,21 @@ const RepaymentContent = () => {
                         <h4 className='nunito'>Loan Application</h4>
                         <p className='capitalize nunito'>Apply for Loan Application</p>
                     </div>
-                    <div className='lg:w-[40%] w-full'>
-                        <div className='flex gap-2'>
-                            <select className='border-[1px] border-black p-2 rounded-xl lg:w-[50%] w-full' name="" id="">
-                                <option value="">Filter by</option>
-                                <option value="">One</option>
-                                <option value="">Two</option>
-                                <option value="">Three</option>
-                                <option value="">Four</option>
-                            </select>
-                            <div className='flex gap-1 border-[1px] border-black lg:w-[45%] w-full rounded-lg px-1'>
-                                <img width={20} height={20} src={search} alt="" />
-                                <input type="text" className="search" placeholder='Search...' />
-                            </div>
+                    <div className='lg:w-[40%] w-[90%]'>
+                    <div className='flex gap-2'>
+                        <select className='border-[1px] border-black p-2 rounded-xl lg:w-[50%] w-full' name="" id="">
+                            <option value="">Filter by</option>
+                            <option value="">One</option>
+                            <option value="">Two</option>
+                            <option value="">Three</option>
+                            <option value="">Four</option>
+                        </select>
+                        <div className='flex gap-1 border-[1px] border-black lg:w-[50%] w-full rounded-lg px-1'>
+                            <img width={20} height={20} src={search} alt="" />
+                            <input type="text" placeholder='Search.....' className="w-[100%] outline-none" />
                         </div>
                     </div>
+                </div>
                     <a className='flex items-center justify-center gap-1 w-full lg:w-[15%] rounded-lg p-3 bg-[#35CD8D]'>
                         <img src={plus} alt="" />
                         <h5 className='text-white nunito'>Request Loan</h5>

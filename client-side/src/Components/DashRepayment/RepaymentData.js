@@ -27,10 +27,10 @@ export const columns = [
     render:(RepaymentStatus)=>{
       if(RepaymentStatus=== "Paid"){
       return(
-        <h6 className='text-[green]'>Paid</h6>
+        <h6 className='text-[#35CD8D]'>Paid</h6>
       ) 
       }else if(RepaymentStatus === "Pending"){
-        return(<h6 className='text-[yellow]'> Pending</h6>)
+        return(<h6 className='text-[#FFA500]'> Pending</h6>)
       }
     },
     sorter:(paid, pending)=>{

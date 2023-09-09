@@ -46,13 +46,13 @@ const FarmContent = () => {
     ]
   return (
     <div className=' w-full py-5 px-3 lg:px-10 flex flex-col gap-6 text-left h-[92vh] overflow-y-auto'>
-        <div className='bg-white overflow-x-auto rounded-xl p-6 items-center flex flex-col'>
+        <div className='bg-white rounded-xl p-6 items-center flex flex-col'>
             <div className='flex w-full lg:flex-row flex-col lg:gap-0 gap-3 items-center justify-between'>
                 <div>
                     <h4 className='nunito'>Farm Details</h4>
                     <p className='capitalize nunito'>let us know more about your farm</p>
                 </div>
-                <div className='lg:w-[40%] w-full'>
+                <div className='lg:w-[40%] w-[90%]'>
                     <div className='flex gap-2'>
                         <select className='border-[1px] border-black p-2 rounded-xl lg:w-[50%] w-full' name="" id="">
                             <option value="">Filter by</option>
@@ -61,10 +61,9 @@ const FarmContent = () => {
                             <option value="">Three</option>
                             <option value="">Four</option>
                         </select>
-                        <div className='flex gap-1 border-[1px] border-black lg:w-[45%] w-full rounded-lg px-1'>
+                        <div className='flex gap-1 border-[1px] border-black lg:w-[50%] w-full rounded-lg px-1'>
                             <img width={20} height={20} src={search} alt="" />
-                            {/* <Input.Search style={{outline:"none", border:non}} className='outline-none border-none w-full' type="search" /> */}
-                            <input type="text" className="search" />
+                            <input type="text" placeholder='Search.....' className="w-[100%] outline-none" />
                         </div>
                     </div>
                 </div>

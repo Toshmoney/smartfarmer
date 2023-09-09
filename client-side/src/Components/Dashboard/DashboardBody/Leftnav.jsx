@@ -14,25 +14,6 @@ const Leftnav = () => {
     const handleDashboard = () => {
         setTog(!tog)
     }
-    // const handleTracktor = () => {
-    //     setOpen(!open)
-    // }
-    // useEffect(()=>{
-    //     const handleShowTracktor = () => {
-    //         if (document.body.scrollTop >= 4 || document.documentElement.scrollTop >= 4) {
-    //             setHideTracktor(false)
-    //         } else {
-    //             setHideTracktor(true);
-    //         }
-    //     }
-
-    //     // window.addEventListener("scroll", handleShowTracktor());
-    //     window.addEventListener("scroll", handleShowTracktor());
-
-    //     return () => {
-    //         window.removeEventListener("scroll", handleShowTracktor)
-    //     }
-    // }, [])
 
     return (
         <>

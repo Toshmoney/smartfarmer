@@ -2,7 +2,7 @@ import React from 'react'
 import plus from '../../Images/plus.svg'
 import search from '../../Images/sss.svg'
 import { PayoutData, columns } from './PayoutdData'
-import {Table} from 'antd'
+import { Table } from 'antd'
 
 const PayoutContent = () => {
   return (
@@ -13,7 +13,7 @@ const PayoutContent = () => {
             <h4 className='nunito'>Payout</h4>
             <p className='capitalize nunito'>Your Payout information Show here</p>
           </div>
-          <div className='lg:w-[40%] w-full'>
+          <div className='lg:w-[40%] w-[90%]'>
             <div className='flex gap-2'>
               <select className='border-[1px] border-black p-2 rounded-xl lg:w-[50%] w-full' name="" id="">
                 <option value="">Filter by</option>
@@ -22,9 +22,9 @@ const PayoutContent = () => {
                 <option value="">Three</option>
                 <option value="">Four</option>
               </select>
-              <div className='flex gap-1 border-[1px] border-black lg:w-[45%] w-full rounded-lg px-1'>
+              <div className='flex gap-1 border-[1px] border-black lg:w-[50%] w-full rounded-lg px-1'>
                 <img width={20} height={20} src={search} alt="" />
-                <input type="text" className="search"  placeholder='Search...'/>
+                <input type="text" placeholder='Search.....' className="w-[100%] outline-none" />
               </div>
             </div>
           </div>
@@ -34,14 +34,14 @@ const PayoutContent = () => {
           </a>
         </div>
         <div className='app flex w-full lg:overflow-y-auto overflow-x-auto bg-green-50'>
-            <header className='App-header w-full'>
-              <Table
-                columns={columns}
-                dataSource={PayoutData}
-              >
-                
-              </Table>
-            </header>
+          <header className='App-header w-full'>
+            <Table
+              columns={columns}
+              dataSource={PayoutData}
+            >
+
+            </Table>
+          </header>
         </div>
       </div>
     </div>
