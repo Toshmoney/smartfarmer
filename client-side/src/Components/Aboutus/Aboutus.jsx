@@ -7,7 +7,7 @@ const Aboutus = () => {
   return (
     <div className='px-20 mb-[20rem]'>
         <div className='container capitalize nunito lg:text-left items-center text-center lg:items-start lg:w-full flex flex-col '>
-            <h1 className='lg:w-[25%]'>what farmers are saying about us</h1>
+            <h1 className='lg:w-[35%] font-extrabold lg:text-[45px] text-[20px]'>what farmers are saying about us</h1>
             <p className='capitalize nunito text-xl text-[grey]'>request a loan and get money to your balance</p>
             <div className='gap-7 mt-7 flex flex-col lg:flex lg:flex-row w-full lg:justify-between lg:mt-28 '>
                 <img src={img1} alt="" />
