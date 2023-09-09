@@ -9,7 +9,7 @@ const Header = () => {
         setToggle(!toggle)
     }
   return (
-    <div className="w-100 w-[100%] flex items-center py-9 justify-center">
+    <div className="w-100 w-[100%] flex items-center py-9 justify-center lg:px-0 px-4">
         <div className="container flex text-left justify-between w-full items-center">
             <div className="w-[20%]">
                 <a href="/"><img src={logo} alt="" /></a>

@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
-import chart from '../../../Images/Chart 7.png'
-import del from '../../../Images/Vector (11).png'
 import LineChart from './LineChart/LineChart'
 import { userData } from './LineChart/Data'
-import {GiFarmTractor} from 'react-icons/gi'
+import { Table } from 'antd'
+import { Paymenthistory, columns } from './TableData'
 
 
 
@@ -44,67 +43,16 @@ const Rightcontent = () => {
       <div className='bg-white px-10 py-10 rounded-3xl w-full'>
         <LineChart graphData={graphical}/>
       </div>
-      <div className='py-10 px-10 bg-white rounded-3xl w-full '>
+      <div className='py-10 px-10 bg-white rounded-3xl w-full  '>
         <h2 className='capitalize nunito'>payment history</h2>
-        <table className='lg:w-full flex flex-col gap-3  md:overflow-x-scroll'>
-          <div className='flex flex-row'>
-            <h3 className='name'>Recipent Name</h3>
-            <h3 className='others'>Bank Name</h3>
-            <h3 className='others'>Amount</h3>
-            <h3 className='others'>Date</h3>
-            <h3 className='others'>Action</h3>
-          </div>
-          <tr className='flex flex-row items-center'>
-            <td className='name flex gap-4'>
-              <li className='list-none font-bold border-2 py-1 px-3 rounded-lg'>1</li>
-              <h4>Ibrahim Abdulsalam</h4>
-            </td>
-            <td className='others font-bold'>WEMA Bank</td>
-            <td className='others font-bold'>NGN 200, 000</td>
-            <td className='others font-bold'>26, March 2023</td>
-            <td className='others font-bold'><img src={del} alt="" /></td>
-          </tr>
-          <tr className='flex flex-row items-center'>
-            <td className='name flex gap-4'>
-              <li className='list-none font-bold border-2 py-1 px-3 rounded-lg'>2</li>
-              <h4>Ibrahim Abdulsalam</h4>
-            </td>
-            <td className='others font-bold'>OPAY Bank</td>
-            <td className='others font-bold'>NGN 200, 000</td>
-            <td className='others font-bold'>26, March 2023</td>
-            <td className='others font-bold'><img src={del} alt="" /></td>
-          </tr>
-          <tr className='flex flex-row items-center'>
-            <td className='name flex gap-4'>
-              <li className='list-none font-bold border-2 py-1 px-3 rounded-lg'>2</li>
-              <h4>Ibrahim Abdulsalam</h4>
-            </td>
-            <td className='others font-bold'>WEMA Bank</td>
-            <td className='others font-bold'>NGN 200, 000</td>
-            <td className='others font-bold'>26, March 2023</td>
-            <td className='others font-bold'><img src={del} alt="" /></td>
-          </tr>
-          <tr className='flex flex-row items-center'>
-            <td className='name flex gap-4'>
-              <li className='list-none font-bold border-2 py-1 px-3 rounded-lg'>2</li>
-              <h4>Ibrahim Abdulsalam</h4>
-            </td>
-            <td className='others font-bold'>OPAY Bank</td>
-            <td className='others font-bold'>NGN 200, 000</td>
-            <td className='others font-bold'>26, March 2023</td>
-            <td className='others font-bold'><img src={del} alt="" /></td>
-          </tr>
-          <tr className='flex flex-row items-center'>
-            <td className='name flex gap-4'>
-              <li className='list-none font-bold border-2 py-1 px-3 rounded-lg'>2</li>
-              <h4>Ibrahim Abdulsalam</h4>
-            </td>
-            <td className='others font-bold'>PALMPAY Bank</td>
-            <td className='others font-bold'>NGN 200, 000</td>
-            <td className='others font-bold'>26, March 2023</td>
-            <td className='others font-bold'><img src={del} alt="" /></td>
-          </tr>
-        </table>
+        <header className='lg:overflow-hidden overflow-x-auto '>
+          <Table 
+            columns={columns}
+            dataSource={Paymenthistory}
+          >
+
+          </Table>
+        </header>
       </div>
     </div>
   )
