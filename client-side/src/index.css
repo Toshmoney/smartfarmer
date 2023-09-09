@@ -150,4 +150,40 @@ svg{
   display: none;
 }
 
-
+.bg1{
+  background: url(../src/Images/Component\ 7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.bg2{
+  background: url(../src/Images/Component\ 6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  /* border-radius: 20px; */
+}
+.bg3{
+  background: url(../src/Images/Component\ 5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
