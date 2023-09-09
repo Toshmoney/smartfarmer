@@ -14,8 +14,8 @@ const Eligibility = () =>{
     return(
         <div className=" bg-[#EBFBF3] text-center w-full lg:text-left py-20 px-10 mt-[6rem]">
             <div className="container flex flex-col gap-2">
-                <h1 className="head capitalize text-xl lg:w-[35%] lg:text-4xl ">what required to be eligible for the loan</h1>
-                <p className="word text-[15px] lg:w-[40%] lg:text-lg capitalize">we give loans to founders, business owners, farmers to grow their business in a profitable way.</p>
+                <h1 className="nunito capitalize text-[20px] lg:w-[35%] lg:text-[40px] ">what required to be eligible for the loan</h1>
+                <p className="font-semibold text-[grey] text-[13px] lg:w-[40%] lg:text-lg capitalize">we give loans to founders, business owners, farmers to grow their business in a profitable way.</p>
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-7 mt-8">
                     <Eligibilityprops
                         image = {one}

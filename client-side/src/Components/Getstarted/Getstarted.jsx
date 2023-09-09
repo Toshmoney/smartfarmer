@@ -23,9 +23,9 @@ const Getstarted = () => {
   return (
     <div>
         <div className='container px-10 py-20 flex-col w-full justify-between lg:flex lg:flex-row lg:px-0'>
-            <div className='text-left mb-7 lg:w-1/3 flex flex-col gap-4'>
-                <h1 className='head capitalize'>a simples way to get started with us!</h1>
-                <p className='nunito text-xl text-[grey] capitalize'>Start your journey with us today and experience a hassle-free loan process tailored to the needs of farmers like you!</p>
+            <div className='lg:text-left mb-7 lg:w-1/3 text-center flex flex-col gap-4'>
+                <h1 className='lg:text-[35px] text-[20px] capitalize'>a simples way to get started with us!</h1>
+                <p className='nunito lg:text-xl text-[15px] text-[grey] capitalize'>Start your journey with us today and experience a hassle-free loan process tailored to the needs of farmers like you!</p>
                 <div>
                     <button className='btn text-white'>Get Started</button>
                 </div>
