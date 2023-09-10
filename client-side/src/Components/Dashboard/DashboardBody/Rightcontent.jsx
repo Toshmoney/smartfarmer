@@ -1,12 +1,17 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import LineChart from './LineChart/LineChart'
 import { userData } from './LineChart/Data'
 import { Table } from 'antd'
 import { Paymenthistory, columns } from './TableData'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 
 
 const Rightcontent = () => {
+  useEffect(()=>{
+    AOS.init();
+  }, []);
   
   const [graphical, setGraphical] = useState({
     labels: userData.map((data)=> data.month),
