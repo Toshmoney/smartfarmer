@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 import test from '../../Images/test.svg'
 import { Navigation, Scrollbar, Autoplay } from 'swiper/modules';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -9,8 +10,11 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 const Aboutus = () => {
+  useEffect(()=>{
+
+  },[])
   return (
-    <div className='px-20 mb-[1rem]'>
+    <div data-aos="fade-up" className='px-20 mb-[1rem]'>
       <div className='container capitalize nunito lg:text-left items-center text-center lg:items-start lg:w-full flex flex-col gap-3'>
         <h1 className='lg:w-[35%] w-full font-extrabold lg:text-[45px] text-[20px]'>what farmers are saying about us</h1>
         <p className='capitalize nunito lg:text-xl text-[16px] text-[grey]'>request a loan and get money to your balance</p>
